@@ -1,0 +1,24 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /collectorInbox/{itemId} {
+      allow create: if request.auth != null
+        && request.resource.data.clientItemId == itemId
+        && request.resource.data.keys().hasOnly([
+          'protocolVersion','clientItemId','createdAt','type','text',
+          'attachmentCount','status','ownerUid','uploadedAt'
+        ])
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.protocolVersion == 1
+        && request.resource.data.status == 'pending'
+        && request.resource.data.type in ['link','text']
+        && request.resource.data.attachmentCount == 0
+        && request.resource.data.text is string
+        && request.resource.data.text.size() <= 20000;
+      allow read, update, delete: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
