@@ -1,1 +1,9 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111827"><title>Pokémon GO 特殊活動</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><h1>Pokémon GO 特殊活動</h1><p>快速查活動、特殊獲取物與 GPS</p></div></header><main class="wrap"><section class="toolbar"><input id="q" type="search" placeholder="搜尋活動、地點、特殊獲取物…"><div class="filters"><select id="status"><option value="">全部狀態</option><option value="active">進行中</option><option value="upcoming">即將開始</option><option value="ended">已結束</option></select><select id="region"><option value="">全部地區</option></select><select id="reward"><option value="">全部特殊獲取物</option></select></div><label class="toggle"><input id="gpsOnly" type="checkbox"> 只看有 GPS 的活動</label></section><div class="summary" id="summary"></div><div id="events"></div><div id="empty" class="empty" hidden>找不到符合條件的活動</div></main><script src="app.js"></script></body></html>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111827"><title>Pokémon GO 特殊活動</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><h1>Pokémon GO 特殊活動</h1><p>快速查活動、特殊獲取物與 GPS</p></div></header>
+<main class="wrap"><section class="toolbar">
+<input id="q" type="search" placeholder="搜尋活動、地點、特殊獲取物…">
+<div class="quick" id="quick"><button data-status="" class="on">全部</button><button data-status="active">進行中</button><button data-status="upcoming">即將開始</button><button data-status="ended">已結束</button></div>
+<div class="filters"><select id="region"><option value="">全部地區</option></select><select id="reward"><option value="">全部特殊獲取物</option></select></div>
+<label class="toggle"><input id="gpsOnly" type="checkbox"> 只看有 GPS 的活動</label>
+</section><div class="summary" id="summary"></div><div id="events"></div><div id="empty" class="empty" hidden>找不到符合條件的活動</div></main>
+<div id="toast" class="toast"></div><script src="app.js"></script></body></html>
