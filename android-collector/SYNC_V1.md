@@ -22,3 +22,6 @@ Android Share -> Local Inbox -> HTTPS Inbox API -> GitHub inbox/incoming -> Chat
 8. reject executable/archive payloads
 
 Do not embed a GitHub Personal Access Token in the APK.
+
+## V1.1 build
+Firebase config is restored at build time from the GitHub Actions repository secret `GOOGLE_SERVICES_JSON_B64`.
