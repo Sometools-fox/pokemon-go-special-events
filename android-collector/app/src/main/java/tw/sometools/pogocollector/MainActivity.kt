@@ -1,0 +1,11 @@
+package tw.sometools.pogocollector
+import android.app.Activity
+import android.os.Bundle
+import android.graphics.Color
+import android.view.ViewGroup
+import android.widget.*
+class MainActivity:Activity(){private lateinit var store:InboxStore
+ override fun onCreate(b:Bundle?){super.onCreate(b);store=InboxStore(this);render()}
+ override fun onResume(){super.onResume();if(::store.isInitialized)render()}
+ private fun label(t:String,s:Float=15f)=TextView(this).apply{text=t;textSize=s;setTextColor(Color.rgb(17,24,39));setPadding(0,8,0,8)}
+ private fun render(){val root=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(28,28,28,28);setBackgroundColor(Color.rgb(243,244,246))};val body=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL};val xs=store.list();body.addView(label("Pokémon GO 活動收集器",24f));body.addView(label("待處理 "+xs.count{it.status=="pending"}+"　·　全部 "+xs.size,14f));body.addView(Button(this).apply{text="清除已處理";setOnClickListener{store.clearProcessed();render()}});xs.forEach{x->val card=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(20,14,20,14);setBackgroundColor(Color.WHITE)};card.addView(label((if(x.type=="link")"🔗 網址" else if(x.type=="image")"🖼️ 圖片" else if(x.type=="images")"🖼️ 圖片 × "+x.uris.size else "📝 文字")+"　"+if(x.status=="pending")"待處理" else "已處理",16f));x.text?.let{card.addView(label(it.take(180),13f))};if(x.uris.isNotEmpty())card.addView(label(x.uris.size.toString()+" 個附件",13f));val row=LinearLayout(this);row.addView(Button(this).apply{text=if(x.status=="pending")"標記已處理" else "改回待處理";setOnClickListener{store.toggle(x.id);render()}});row.addView(Button(this).apply{text="刪除";setOnClickListener{store.delete(x.id);render()}});card.addView(row);body.addView(card,LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT).apply{setMargins(0,8,0,8)})};if(xs.isEmpty())body.addView(label("目前沒有待處理資料。\n從 Chrome、LINE 或相簿使用「分享」即可加入。",16f));ScrollView(this).apply{addView(body);root.addView(this)};setContentView(root)}}
