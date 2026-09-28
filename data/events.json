@@ -1,10 +1,14 @@
 [
   {
+    "schemaVersion": 2,
     "id": "2026-klcc-pokexciting",
     "name": "PokéXciting! Kuala Lumpur",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-13",
-    "timeNote": "",
+    "schedule": {
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-13",
+      "timeNote": "",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "馬來西亞",
       "吉隆坡"
@@ -14,9 +18,12 @@
         "name": "KLCC Park",
         "lat": 3.15558,
         "lng": 101.71479,
-        "note": "主要活動定位點"
+        "note": "主要活動定位點",
+        "type": "primary",
+        "coordinateStatus": "provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "特殊造型",
@@ -70,16 +77,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/07/klcc-pokexciting/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/07/klcc-pokexciting/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "2026-ana-green-pokemon-jet-phase2",
     "name": "ANA × Pokémon GO「Green Pokémon Jet」第二階段",
-    "startDate": "2026-09-18",
-    "endDate": "2027-08-31",
-    "timeNote": "",
+    "schedule": {
+      "startDate": "2026-09-18",
+      "endDate": "2027-08-31",
+      "timeNote": "",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "日本",
       "四國",
@@ -91,87 +110,116 @@
         "name": "高知機場",
         "lat": 33.5463,
         "lng": 133.6694,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "primary",
+        "coordinateStatus": "provided"
       },
       {
         "name": "松山機場",
         "lat": 33.8272,
         "lng": 132.6997,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "高松機場",
         "lat": 34.2142,
         "lng": 134.0156,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "德島機場",
         "lat": 34.1328,
         "lng": 134.6067,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "福岡機場",
         "lat": 33.5859,
         "lng": 130.4507,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "佐賀機場",
         "lat": 33.1497,
         "lng": 130.3022,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "宮崎機場",
         "lat": 31.8772,
         "lng": 131.4486,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "熊本機場",
         "lat": 32.8372,
         "lng": 130.8569,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "鹿兒島機場",
         "lat": 31.8033,
         "lng": 130.7194,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "長崎機場",
         "lat": 32.9169,
         "lng": 129.9136,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "大分機場",
         "lat": 33.4794,
         "lng": 131.7378,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "那霸機場",
         "lat": 26.2064,
         "lng": 127.6465,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "宮古機場",
         "lat": 24.7828,
         "lng": 125.2953,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "新石垣機場",
         "lat": 24.3964,
         "lng": 124.245,
-        "note": "指定機場"
+        "note": "指定機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "特殊背景",
@@ -185,16 +233,28 @@
       "共14座指定機場"
     ],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/06/ana-bulbasaur/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/06/ana-bulbasaur/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "2026-korea-pikachu-autumn-picnic",
     "name": "皮卡丘的秋日野餐",
-    "startDate": "2026-09-18",
-    "endDate": "2026-10-11",
-    "timeNote": "10:00～20:00（依先前提供頁面整理）",
+    "schedule": {
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-11",
+      "timeNote": "10:00～20:00（依先前提供頁面整理）",
+      "timeStatus": "provided"
+    },
     "regions": [
       "韓國",
       "首爾"
@@ -204,51 +264,68 @@
         "name": "光化門廣場－世宗大王銅像前",
         "lat": 37.5729,
         "lng": 126.9769,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "primary",
+        "coordinateStatus": "provided"
       },
       {
         "name": "世宗文化會館前",
         "lat": 37.5718,
         "lng": 126.9762,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "松峴綠地廣場",
         "lat": 37.576,
         "lng": 126.9828,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "雲峴宮",
         "lat": 37.576,
         "lng": 126.9868,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "塔谷公園",
         "lat": 37.5713,
         "lng": 126.9882,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "清溪廣場入口",
         "lat": 37.5692,
         "lng": 126.9778,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "HiKR GROUND",
         "lat": 37.5684,
         "lng": 126.9816,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       },
       {
         "name": "首爾廣場／首爾市廳南側",
         "lat": 37.5658,
         "lng": 126.9772,
-        "note": "首爾指定活動點"
+        "note": "首爾指定活動點",
+        "type": "additional",
+        "coordinateStatus": "provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "特殊造型",
@@ -260,16 +337,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/08/27/korean-server-pikachu/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/08/27/korean-server-pikachu/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "2026-korea-pikachu-partners",
     "name": "皮卡丘的韓國夥伴們",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-26",
-    "timeNote": "10:00～20:00（依先前提供頁面整理）",
+    "schedule": {
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-26",
+      "timeNote": "10:00～20:00（依先前提供頁面整理）",
+      "timeStatus": "provided"
+    },
     "regions": [
       "韓國"
     ],
@@ -278,9 +367,12 @@
         "name": "韓國全境",
         "lat": null,
         "lng": null,
-        "note": "無特定單一座標"
+        "note": "無特定單一座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "其他",
@@ -292,16 +384,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/08/27/korean-server-pikachu/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/08/27/korean-server-pikachu/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-ph",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "菲律賓"
     ],
@@ -310,9 +414,12 @@
         "name": "SM Mall of Asia",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -330,16 +437,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-tw-taichung",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-10-17",
-    "endDate": "2026-10-18",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "台灣",
       "台中"
@@ -349,9 +468,12 @@
         "name": "中央公園",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -369,16 +491,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-tw-kaohsiung",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "台灣",
       "高雄"
@@ -388,9 +522,12 @@
         "name": "夢時代",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -408,16 +545,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-sg",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "新加坡"
     ],
@@ -426,9 +575,12 @@
         "name": "The Kallang",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -446,16 +598,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-tw-newtaipei",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-11-14",
-    "endDate": "2026-11-15",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "台灣",
       "新北"
@@ -465,9 +629,12 @@
         "name": "新北大都會公園",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -485,16 +652,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-id-jakarta",
     "name": "Pokémon RUN 2026",
-    "startDate": "2026-12-12",
-    "endDate": "2026-12-13",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-13",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "印尼",
       "雅加達"
@@ -504,9 +683,12 @@
         "name": "Gelora Bung Karno（GBK）",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -524,16 +706,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-th",
     "name": "Pokémon RUN 2026",
-    "startDate": "2027-01-09",
-    "endDate": "2027-01-10",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2027-01-09",
+      "endDate": "2027-01-10",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "泰國"
     ],
@@ -542,9 +736,12 @@
         "name": "網頁未提供具體地點",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "partial",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -562,16 +759,28 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   },
   {
+    "schemaVersion": 2,
     "id": "pokemon-run-2026-hk",
     "name": "Pokémon RUN 2026",
-    "startDate": "2027-01-23",
-    "endDate": "2027-01-24",
-    "timeNote": "網頁未明確提供正式活動時間",
+    "schedule": {
+      "startDate": "2027-01-23",
+      "endDate": "2027-01-24",
+      "timeNote": "網頁未明確提供正式活動時間",
+      "timeStatus": "not_provided"
+    },
     "regions": [
       "香港"
     ],
@@ -580,9 +789,12 @@
         "name": "香港科學園",
         "lat": null,
         "lng": null,
-        "note": "目前提供網頁未附GPS座標"
+        "note": "目前提供網頁未附GPS座標",
+        "type": "primary",
+        "coordinateStatus": "not_provided"
       }
     ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "未知圖騰",
@@ -600,8 +812,16 @@
     "details": [],
     "notes": [],
     "sources": [
-      "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/04/pokemon-run-2026-asia/"
+      }
     ],
-    "lastUpdated": "2026-09-28"
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
   }
 ]
