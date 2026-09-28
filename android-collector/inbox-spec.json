@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "acceptedMimeTypes": ["text/plain", "image/*"],
+  "actions": ["android.intent.action.SEND", "android.intent.action.SEND_MULTIPLE"],
+  "record": {
+    "id": "uuid",
+    "createdAt": "iso-8601",
+    "type": "link|text|image|images",
+    "text": "string|null",
+    "uriList": "string[]",
+    "status": "pending|processed",
+    "batchId": "uuid"
+  }
+}
