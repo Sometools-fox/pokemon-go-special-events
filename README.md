@@ -1,16 +1,20 @@
 # Pokémon GO Special Events
 
-私人 Pokémon GO 特殊活動資料庫。
+Pokémon GO 特殊活動資料庫與查詢網站。
 
-## 原則
-- 新活動只依使用者當次提供的網頁、文字或截圖整理。
-- 未特別要求時，不主動從其他網站或其他 ChatGPT 對話補資料。
-- 來源沒有提供的資料標示為未提供，不自行推測。
-- 一個活動一筆資料；多個 GPS 存在同一活動的 locations 陣列。
-- specialRewards 用分類資料保存，方便網站篩選。
+## V2 核心規則
+- 每次只處理使用者當次提供的網址、文字或截圖；未特別要求不外部補查。
+- 來源未提供的時間、地點或 GPS 不猜測，以狀態欄位標記。
+- 同一活動沿用穩定 id，後續資訊更新原資料，不重複新增。
+- 一活動可含多個 locations；第一個為 primary，其餘為 additional。
+- 特殊獲取物統一放 specialRewards。
+- createdAt 保留首次建立日期；updatedAt 記錄最後更新日期。
 
-## 結構
-- `data/events.json`：活動資料索引
-- `data/schema.json`：活動資料格式
-- `public/`：網站
-- `firebase.json`：Firebase Hosting 設定
+## 更新流程
+使用者提供資料 → 完整讀取當次來源 → 判斷新/既有活動 → 擷取資料 → 驗證 → 更新 data/events.json → GitHub Pages 自動發布。
+
+## 檔案
+- data/events.json：V2 活動資料
+- data/schema.json：V2 Schema
+- docs/UPDATE_WORKFLOW.md：更新規範
+- index.html / event.html：網站
