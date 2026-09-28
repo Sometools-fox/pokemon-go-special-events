@@ -1,115 +1,190 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Pokemon GO Special Event",
-  "type": "object",
-  "required": [
-    "id",
-    "name",
-    "startDate",
-    "endDate",
-    "regions",
-    "locations",
-    "specialRewards",
-    "sources"
-  ],
-  "properties": {
-    "id": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "startDate": {
-      "type": "string"
-    },
-    "endDate": {
-      "type": "string"
-    },
-    "timeNote": {
-      "type": "string"
-    },
-    "regions": {
-      "type": "array",
-      "items": {
+  "title": "Pokémon GO Special Events V2",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "schemaVersion",
+      "id",
+      "name",
+      "schedule",
+      "regions",
+      "locations",
+      "locationStatus",
+      "specialRewards",
+      "sources",
+      "dataQuality",
+      "createdAt",
+      "updatedAt"
+    ],
+    "properties": {
+      "schemaVersion": {
+        "const": 2
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$"
+      },
+      "name": {
         "type": "string"
-      }
-    },
-    "locations": {
-      "type": "array",
-      "items": {
+      },
+      "schedule": {
         "type": "object",
         "required": [
-          "name"
+          "startDate",
+          "endDate",
+          "timeNote",
+          "timeStatus"
         ],
         "properties": {
-          "name": {
+          "startDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "timeNote": {
             "type": "string"
           },
-          "lat": {
-            "type": [
-              "number",
-              "null"
+          "timeStatus": {
+            "enum": [
+              "provided",
+              "not_provided",
+              "uncertain"
             ]
-          },
-          "lng": {
-            "type": [
-              "number",
-              "null"
-            ]
-          },
-          "note": {
-            "type": "string"
           }
         }
-      }
-    },
-    "specialRewards": {
-      "type": "array",
-      "items": {
+      },
+      "regions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "locations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "name",
+            "lat",
+            "lng",
+            "note",
+            "type",
+            "coordinateStatus"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "lat": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lng": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": -180,
+              "maximum": 180
+            },
+            "note": {
+              "type": "string"
+            },
+            "type": {
+              "enum": [
+                "primary",
+                "additional"
+              ]
+            },
+            "coordinateStatus": {
+              "enum": [
+                "provided",
+                "not_provided",
+                "uncertain"
+              ]
+            }
+          }
+        }
+      },
+      "locationStatus": {
+        "enum": [
+          "provided",
+          "partial",
+          "not_provided",
+          "uncertain"
+        ]
+      },
+      "specialRewards": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "details": {
+        "type": "array"
+      },
+      "notes": {
+        "type": "array"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "type",
+            "url"
+          ],
+          "properties": {
+            "type": {
+              "const": "user_provided"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      },
+      "dataQuality": {
         "type": "object",
         "required": [
-          "category",
-          "name"
+          "gpsStatus",
+          "unresolved"
         ],
         "properties": {
-          "category": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "shiny": {
-            "type": [
-              "boolean",
-              "null"
+          "gpsStatus": {
+            "enum": [
+              "complete",
+              "partial",
+              "not_provided",
+              "uncertain"
             ]
           },
-          "note": {
-            "type": "string"
+          "unresolved": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date"
       }
-    },
-    "details": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "notes": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "sources": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "lastUpdated": {
-      "type": "string"
     }
   }
 }
