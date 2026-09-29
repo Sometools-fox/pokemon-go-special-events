@@ -1,0 +1,54 @@
+name: Sync Firestore Inbox
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 台灣時間 08:00、14:00、20:00
+    # GitHub Actions cron 使用 UTC
+    - cron: "0 0,6,12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Firestore client
+        run: pip install google-cloud-firestore==2.21.0
+
+      - name: Restore reader credentials
+        env:
+          FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
+        run: |
+          test -n "$FIREBASE_SERVICE_ACCOUNT_B64"
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 --decode > "$RUNNER_TEMP/firebase-reader.json"
+
+      - name: Import Firestore Inbox
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-reader.json
+          GOOGLE_CLOUD_PROJECT: pokemon-go-special-events
+        run: python scripts/sync_firestore_inbox.py
+
+      - name: Commit new Inbox items
+        run: |
+          if [ -z "$(git status --porcelain inbox/incoming)" ]; then
+            echo "No new Inbox items."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add inbox/incoming
+          git commit -m "Sync Firestore Inbox"
+          git push
