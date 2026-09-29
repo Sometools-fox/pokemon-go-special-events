@@ -3,7 +3,11 @@ from pathlib import Path
 from google.cloud import firestore
 
 out = Path("inbox/incoming")
-out.mkdir(parents=True, exist_ok=True)
+processed = Path("inbox/processed")
+needs_review = Path("inbox/needs-review")
+
+for directory in (out, processed, needs_review):
+    directory.mkdir(parents=True, exist_ok=True)
 
 db = firestore.Client()
 created = 0
@@ -22,11 +26,12 @@ for doc in db.collection("collectorInbox").stream():
     if not safe_id:
         continue
 
-    path = out / f"{safe_id}.json"
+    filename = f"{safe_id}.json"
+    path = out / filename
 
     # clientItemId = 唯一鍵。
-    # 已經進 GitHub 的資料不重複匯入。
-    if path.exists():
+    # 只要資料已存在於任何 Inbox 狀態目錄，就不再從 Firestore 重複匯入。
+    if any((directory / filename).exists() for directory in (out, processed, needs_review)):
         continue
 
     uploaded = data.get("uploadedAt")
