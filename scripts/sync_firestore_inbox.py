@@ -57,4 +57,18 @@ for doc in db.collection("collectorInbox").stream():
 
     created += 1
 
-print(f"Imported {created} new Inbox item(s).")
+# 固定佇列索引：讓排程處理器不必搜尋 UUID 檔名。
+queue_files = sorted(
+    p.name for p in out.glob("*.json")
+    if p.name != "index.json"
+)
+(out / "index.json").write_text(
+    json.dumps(
+        {"version": 1, "pendingCount": len(queue_files), "files": queue_files},
+        ensure_ascii=False,
+        indent=2,
+    ) + "\\n",
+    encoding="utf-8",
+)
+
+print(f"Imported {created} new Inbox item(s). Pending queue: {len(queue_files)}.")
