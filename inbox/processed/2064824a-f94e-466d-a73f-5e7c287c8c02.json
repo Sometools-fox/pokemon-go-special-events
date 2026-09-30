@@ -1,0 +1,16 @@
+{
+  "protocolVersion": 1,
+  "clientItemId": "2064824a-f94e-466d-a73f-5e7c287c8c02",
+  "createdAt": "2026-09-29T13:14:46.088689Z",
+  "type": "link",
+  "text": "https://pokemongohub.net/post/event/harvest-festival-2026-applin-picking/",
+  "attachmentCount": 0,
+  "sourceStatus": "processed",
+  "importStatus": "processed",
+  "processedAt": "2026-09-30",
+  "result": "added_event",
+  "eventIds": [
+    "2026-harvest-festival-applin-picking"
+  ],
+  "reason": "Valid Pokémon GO special-event source; imported using only the user-provided source URL."
+}
