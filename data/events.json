@@ -823,5 +823,55 @@
     },
     "createdAt": "2026-09-28",
     "updatedAt": "2026-09-28"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-harvest-festival-applin-picking",
+    "name": "Harvest Festival 2026: Applin Picking",
+    "schedule": {
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-05",
+      "timeNote": "10:00～20:00（當地時間）",
+      "timeStatus": "provided"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "異色",
+        "name": "異色啃果蟲首次登場",
+        "shiny": true,
+        "note": "來源指出為 Pokémon GO 首次登場"
+      },
+      {
+        "category": "異色",
+        "name": "異色迷你芙",
+        "shiny": true,
+        "note": "活動期間遇見異色迷你芙的機率提高"
+      }
+    ],
+    "details": [
+      "青苔誘餌模組在活動期間只會吸引蘋果；點擊可獲得酸蘋果、甜蘋果、蜜汁蘋果或活動主題寶可夢遭遇。",
+      "包含活動主題田野調查、分支限時調查與 Harvest Festival GO Pass。"
+    ],
+    "notes": [
+      "來源頁面未明確提供活動地區或實體地點，因此未補推 GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://pokemongohub.net/post/event/harvest-festival-2026-applin-picking/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動地區／實體地點未由來源明確提供",
+        "GPS 座標未提供"
+      ]
+    },
+    "createdAt": "2026-09-30",
+    "updatedAt": "2026-09-30"
   }
 ]
