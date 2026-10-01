@@ -11,5 +11,5 @@ class InboxStore(ctx:Context){private val p=ctx.getSharedPreferences("inbox",Con
  @Synchronized fun toggle(id:String)=save(list().map{if(it.id==id)it.copy(status=if(it.status=="pending")"processed" else "pending") else it})
  @Synchronized fun markSynced(id:String)=save(list().map{if(it.id==id)it.copy(syncStatus="synced") else it})
  @Synchronized fun delete(id:String)=save(list().filter{it.id!=id})
- @Synchronized fun clearProcessed()=save(list().filter{it.status!="processed"})
+ @Synchronized fun clearSynced()=save(list().filter{it.syncStatus!="synced"})
  private fun save(xs:List<InboxItem>){val a=JSONArray();xs.forEach{x->a.put(JSONObject().put("id",x.id).put("createdAt",x.createdAt).put("type",x.type).put("text",x.text?:"").put("uris",JSONArray(x.uris)).put("status",x.status).put("syncStatus",x.syncStatus))};p.edit().putString("items",a.toString()).commit()}}
