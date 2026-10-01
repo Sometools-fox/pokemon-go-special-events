@@ -55,4 +55,8 @@ jobs:
 
           git add inbox/incoming
           git commit -m "Sync Firestore Inbox"
-          git push
+
+          # main may advance while this job is running (for example, ChatGPT edits).
+          # Rebase the Inbox commit onto the latest remote main before pushing.
+          git pull --rebase origin main
+          git push origin HEAD:main
