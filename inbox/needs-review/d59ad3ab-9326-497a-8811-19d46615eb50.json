@@ -1,0 +1,15 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "d59ad3ab-9326-497a-8811-19d46615eb50",
+  "createdAt": "2026-10-01T07:41:15.586772Z",
+  "type": "link",
+  "text": "https://pokemonhubs.com/pokemongo/54116/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "needs-review",
+  "uploadedAt": "2026-10-01T07:47:42.330000+00:00",
+  "reviewReason": "source-unavailable",
+  "reviewedAt": "2026-10-01",
+  "reason": "使用者提供的來源網址目前無法讀取，因此未使用其他來源補資料。"
+}
