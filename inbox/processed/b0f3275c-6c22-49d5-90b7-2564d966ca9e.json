@@ -1,0 +1,24 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "b0f3275c-6c22-49d5-90b7-2564d966ca9e",
+  "createdAt": "2026-10-01T04:10:22.187616Z",
+  "type": "image",
+  "text": "https://pokemonhubs.com/pokemongo/53798/",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/b0f3275c-6c22-49d5-90b7-2564d966ca9e/1d87baae-4555-4c7b-b244-84829a443597.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-01T07:13:52.762000+00:00",
+  "processedAt": "2026-10-01",
+  "result": "added_events_from_image",
+  "resultEventIds": [
+    "unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05",
+    "unknown-year-gigantamax-cinderace-max-battle-day-oct-03",
+    "unknown-year-space-week-oct-04-10"
+  ],
+  "reason": "依使用者提供圖片整理；未使用其他來源補足缺漏。"
+}
