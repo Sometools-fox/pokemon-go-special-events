@@ -852,8 +852,10 @@
       }
     ],
     "details": [
-      "青苔誘餌模組在活動期間只會吸引蘋果；點擊可獲得酸蘋果、甜蘋果、蜜汁蘋果或活動主題寶可夢遭遇。",
-      "包含活動主題田野調查、分支限時調查與 Harvest Festival GO Pass。"
+      "GO Pass 豐收節：所有訓練家自動獲得免費版；另有付費 GO Pass 豪華版。",
+      "GO Pass 達級別 1：捕捉啃果蟲時，攜帶酸酸蘋果、甜甜蘋果或蜜汁蘋果的機率提高。",
+      "GO Pass 達級別 10：活動期間使用的青苔誘餌模組效果延長至 1 小時。",
+      "GO Pass 免費路線達級別 30 可取得超級火箭隊雷達 ×1；已解鎖獎勵領取期限為 2026-10-07 20:00（當地時間）。"
     ],
     "notes": [
       "來源頁面未明確提供活動地區或實體地點，因此未補推 GPS。"
@@ -862,6 +864,10 @@
       {
         "type": "user_provided",
         "url": "https://pokemongohub.net/post/event/harvest-festival-2026-applin-picking/"
+      },
+      {
+        "type": "user_provided",
+        "url": "https://pokemonhubs.com/pokemongo/54198/"
       }
     ],
     "dataQuality": {
@@ -872,6 +878,62 @@
       ]
     },
     "createdAt": "2026-09-30",
-    "updatedAt": "2026-09-30"
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-kanto-pokepark-articuno-background-raids",
+    "name": "KANTO PokéPark 背景急凍鳥團體戰",
+    "schedule": {
+      "startDate": null,
+      "endDate": null,
+      "timeNote": "於10月、11月、12月及1月期間舉行；來源圖片未提供確切日期。每天一座道館提供團體戰，開放時間為10小時。",
+      "timeStatus": "partial"
+    },
+    "regions": [
+      "日本"
+    ],
+    "locations": [
+      {
+        "name": "讀賣樂園",
+        "lat": 35.6259,
+        "lng": 139.52094,
+        "note": "來源圖片提供地點座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "KANTO PokéPark 背景急凍鳥",
+        "shiny": true,
+        "note": "來源圖片指出急凍鳥有機會以異色版本登場"
+      }
+    ],
+    "details": [
+      "活動完全免費。",
+      "每天僅有一座道館提供此團體戰。",
+      "每位玩家每天只能參加一次。"
+    ],
+    "notes": [
+      "來源圖片僅提供月份，未提供年份與各月份的確切活動日期，因此日期保留待確認。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "活動年份未由來源圖片明確提供",
+        "各月份確切活動日期未提供"
+      ]
+    },
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
   }
 ]
