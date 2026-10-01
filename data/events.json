@@ -1053,5 +1053,55 @@
     },
     "createdAt": "2026-10-01",
     "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-korea-hangul-day-event",
+    "name": "2026 韓國韓文日（한글날）活動",
+    "schedule": {
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-09",
+      "timeNote": "10月6日 10:00 ～ 10月9日 20:00",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "韓國"
+    ],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "未知圖騰",
+        "name": "未知圖騰（Unown）",
+        "shiny": null,
+        "note": "來源圖片明確指出可透過收藏家挑戰獲得；未標示字母型態。"
+      }
+    ],
+    "details": [
+      "活動限定寶可夢會從薰香、誘餌模組中出現，且異色出現機率提升。",
+      "誘餌模組效果持續時間延長至 1 小時。",
+      "薰香效果持續時間延長至 2 小時。"
+    ],
+    "notes": [
+      "來源圖片標示為韓國限定活動；未提供實體活動地點或 GPS。",
+      "圖片中的活動名稱、日期時間、韓國限定、未知圖騰獲取方式等文字判讀均高於 60% 信心門檻，無需人工確認。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "實體活動地點未提供",
+        "GPS 座標未提供",
+        "未知圖騰字母型態未提供",
+        "活動限定寶可夢的完整名單未由圖片文字明確列出"
+      ]
+    },
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
   }
 ]
