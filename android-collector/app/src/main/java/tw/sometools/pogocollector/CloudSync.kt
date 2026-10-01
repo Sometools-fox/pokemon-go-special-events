@@ -26,6 +26,10 @@ object CloudSync {
   val paths=MutableList<String?>(item.uris.size){null}
   var remaining=item.uris.size
   var failed=false
+
+  fun cleanupUploadedPaths(){
+   paths.filterNotNull().forEach{path->storage.reference.child(path).delete()}
+  }
   item.uris.forEachIndexed{index,raw->
    val uri=Uri.parse(raw)
    val mime=if(uri.scheme=="file") when(uri.toString().substringAfterLast(".", "").lowercase()){"png"->"image/png";"webp"->"image/webp";else->"image/jpeg"} else context.contentResolver.getType(uri)?:"image/jpeg"
@@ -35,10 +39,13 @@ object CloudSync {
     .addOnSuccessListener{
      paths[index]=path
      remaining--
-     if(remaining==0 && !failed) writeInbox(item,uid,paths.filterNotNull(),onDone)
+     if(remaining==0 && !failed) writeInbox(item,uid,paths.filterNotNull()){ok,msg->
+      if(!ok) cleanupUploadedPaths()
+      onDone(ok,msg)
+     }
     }
     .addOnFailureListener{
-     if(!failed){failed=true;onDone(false,it.message?:"圖片上傳失敗")}
+     if(!failed){failed=true;cleanupUploadedPaths();onDone(false,it.message?:"圖片上傳失敗")}
     }
   }
  }
