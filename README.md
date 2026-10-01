@@ -9,7 +9,7 @@ Pokémon GO 特殊活動資料庫與查詢網站。
 - 同一活動沿用穩定 id，後續資訊更新原資料，不重複新增。
 - 一活動可含多個 locations；第一個為 primary，其餘為 additional。
 - 特殊獲取物統一放 specialRewards。
-- createdAt 保留首次建立日期；updatedAt 記錄最後更新日期。
+- createdAt 保留首次建立日期；updatedAt 記錄最後更新日期。\n- 圖片／截圖在「處理 Inbox」時按欄位個別評估判讀信心；低於 60% 的內容不直接入庫，集中詢問使用者確認。
 
 ## 更新流程
 使用者提供資料 → 完整讀取當次來源 → 判斷新/既有活動 → 擷取資料 → 驗證 → 更新 data/events.json → GitHub Pages 自動發布。
