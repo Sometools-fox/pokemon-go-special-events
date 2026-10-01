@@ -2,6 +2,10 @@ name: Sync Firestore Inbox
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/sync_firestore_inbox.py"
+      - ".github/workflows/sync-firestore-inbox.yml"
   schedule:
     # 台灣時間 08:00、20:00
     # GitHub Actions cron 使用 UTC
