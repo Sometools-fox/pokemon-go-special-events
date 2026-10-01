@@ -45,6 +45,7 @@ for doc in db.collection("collectorInbox").stream():
         "type": data.get("type"),
         "text": data.get("text", ""),
         "attachmentCount": data.get("attachmentCount", 0),
+        "attachments": data.get("attachments", []),
         "sourceStatus": data.get("status", "pending"),
         "importStatus": "pending",
         "uploadedAt": uploaded,
