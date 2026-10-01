@@ -1,0 +1,16 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "b0f3275c-6c22-49d5-90b7-2564d966ca9e",
+  "createdAt": "2026-10-01T04:10:22.187616Z",
+  "type": "image",
+  "text": "https://pokemonhubs.com/pokemongo/53798/",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/b0f3275c-6c22-49d5-90b7-2564d966ca9e/1d87baae-4555-4c7b-b244-84829a443597.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "pending",
+  "uploadedAt": "2026-10-01T07:13:52.762000+00:00"
+}
