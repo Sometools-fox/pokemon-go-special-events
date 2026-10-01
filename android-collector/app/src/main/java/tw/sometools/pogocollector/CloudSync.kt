@@ -28,7 +28,7 @@ object CloudSync {
   var failed=false
   item.uris.forEachIndexed{index,raw->
    val uri=Uri.parse(raw)
-   val mime=context.contentResolver.getType(uri)?:"image/jpeg"
+   val mime=if(uri.scheme=="file") when(uri.toString().substringAfterLast(".", "").lowercase()){"png"->"image/png";"webp"->"image/webp";else->"image/jpeg"} else context.contentResolver.getType(uri)?:"image/jpeg"
    val ext=when(mime){"image/png"->"png";"image/webp"->"webp";else->"jpg"}
    val path="collector/$uid/${item.id}/${UUID.randomUUID()}.$ext"
    storage.reference.child(path).putFile(uri)
