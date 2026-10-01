@@ -5,6 +5,7 @@ Pokémon GO 特殊活動資料庫與查詢網站。
 ## V2 核心規則
 - 每次只處理使用者當次提供的網址、文字或截圖；未特別要求不外部補查。
 - 來源未提供的時間、地點或 GPS 不猜測，以狀態欄位標記。
+- 來源沒有可形成完整日期的活動日期時，以資料處理日為 startDate、+6 天為 endDate（共 7 天）暫定入庫，標記 `timeStatus: estimated`；日後取得正式日期時覆蓋。
 - 同一活動沿用穩定 id，後續資訊更新原資料，不重複新增。
 - 一活動可含多個 locations；第一個為 primary，其餘為 additional。
 - 特殊獲取物統一放 specialRewards。
