@@ -885,10 +885,10 @@
     "id": "2026-kanto-pokepark-articuno-background-raids",
     "name": "KANTO PokéPark 背景急凍鳥團體戰",
     "schedule": {
-      "startDate": null,
-      "endDate": null,
-      "timeNote": "於10月、11月、12月及1月期間舉行；來源圖片未提供確切日期。每天一座道館提供團體戰，開放時間為10小時。",
-      "timeStatus": "partial"
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "timeNote": "於10月、11月、12月及1月期間舉行；來源圖片未提供確切日期。每天一座道館提供團體戰，開放時間為10小時。；來源未提供可形成完整日期的活動日期；系統暫定為收錄日起 7 天（2026-10-01～2026-10-07）。",
+      "timeStatus": "estimated"
     },
     "regions": [
       "日本"
@@ -930,7 +930,8 @@
       "gpsStatus": "complete",
       "unresolved": [
         "活動年份未由來源圖片明確提供",
-        "各月份確切活動日期未提供"
+        "各月份確切活動日期未提供",
+        "來源未提供可形成完整日期的活動日期；目前使用系統 7 天暫定期"
       ]
     },
     "createdAt": "2026-10-01",
@@ -941,10 +942,10 @@
     "id": "unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05",
     "name": "豐收節：火箭隊佔領",
     "schedule": {
-      "startDate": null,
-      "endDate": null,
-      "timeNote": "10月2日～10月5日（來源圖片未提供年份與每日時間）",
-      "timeStatus": "partial"
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "timeNote": "10月2日～10月5日（來源圖片未提供年份與每日時間）；來源未提供可形成完整日期的活動日期；系統暫定為收錄日起 7 天（2026-10-01～2026-10-07）。",
+      "timeStatus": "estimated"
     },
     "regions": [],
     "locations": [],
@@ -967,7 +968,8 @@
         "每日活動時間未提供",
         "活動地區／實體地點未提供",
         "GPS 座標未提供",
-        "特殊獲取物未提供"
+        "特殊獲取物未提供",
+        "來源未提供可形成完整日期的活動日期；目前使用系統 7 天暫定期"
       ]
     },
     "createdAt": "2026-10-01",
@@ -978,10 +980,10 @@
     "id": "unknown-year-gigantamax-cinderace-max-battle-day-oct-03",
     "name": "超極巨閃焰王牌極巨對戰日",
     "schedule": {
-      "startDate": null,
-      "endDate": null,
-      "timeNote": "10月3日（來源圖片未提供年份與活動時間）",
-      "timeStatus": "partial"
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "timeNote": "10月3日（來源圖片未提供年份與活動時間）；來源未提供可形成完整日期的活動日期；系統暫定為收錄日起 7 天（2026-10-01～2026-10-07）。",
+      "timeStatus": "estimated"
     },
     "regions": [],
     "locations": [],
@@ -1010,7 +1012,8 @@
         "活動年份未由來源圖片明確提供",
         "活動時間未提供",
         "活動地區／實體地點未提供",
-        "GPS 座標未提供"
+        "GPS 座標未提供",
+        "來源未提供可形成完整日期的活動日期；目前使用系統 7 天暫定期"
       ]
     },
     "createdAt": "2026-10-01",
@@ -1021,10 +1024,10 @@
     "id": "unknown-year-space-week-oct-04-10",
     "name": "太空週",
     "schedule": {
-      "startDate": null,
-      "endDate": null,
-      "timeNote": "10月4日～10月10日（來源圖片未提供年份與每日時間）",
-      "timeStatus": "partial"
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "timeNote": "10月4日～10月10日（來源圖片未提供年份與每日時間）；來源未提供可形成完整日期的活動日期；系統暫定為收錄日起 7 天（2026-10-01～2026-10-07）。",
+      "timeStatus": "estimated"
     },
     "regions": [],
     "locations": [],
@@ -1047,7 +1050,8 @@
         "每日活動時間未提供",
         "活動地區／實體地點未提供",
         "GPS 座標未提供",
-        "特殊獲取物未提供"
+        "特殊獲取物未提供",
+        "來源未提供可形成完整日期的活動日期；目前使用系統 7 天暫定期"
       ]
     },
     "createdAt": "2026-10-01",
