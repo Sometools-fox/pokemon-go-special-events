@@ -53,7 +53,8 @@
             "enum": [
               "provided",
               "not_provided",
-              "uncertain"
+              "uncertain",
+              "estimated"
             ]
           }
         }
