@@ -2,6 +2,10 @@ name: Cleanup Firebase Inbox Images
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/cleanup-firebase-images.yml"
+      - "scripts/cleanup_firebase_images.py"
 
 permissions:
   contents: read
