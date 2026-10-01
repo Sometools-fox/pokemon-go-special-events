@@ -7,7 +7,20 @@
 至少擷取活動名稱、日期、地區/地點、位置資訊、特殊獲取物與來源。缺少資訊使用狀態值，不推測。
 
 ## Match
-先比對既有資料。同活動有新資訊時沿用原 ID；同系列不同城市/日期場次使用不同 ID；無法確定時不強行合併並標記 unresolved。
+先比對既有資料。同活動有新資訊時沿用原 ID；同系列不同城市/日期場次使用不同 ID。
+
+若只是缺少日期、時間、GPS、精確場地或特殊獲取物，依 schema 使用未提供/待確認等狀態，仍可正常入庫，不因單純缺資料進入 needs-review。
+
+只有在來源本身無法安全判斷、需要人工決定才進入 needs-review，例如：
+- 不確定是否為 Pokémon GO 活動。
+- 不確定應新增活動或更新既有活動。
+- 日期或時間資訊互相矛盾。
+- 地點、座標或來源資訊互相矛盾。
+- 網頁無法讀取、需要登入或內容已消失，導致無法建立基本活動身分。
+- 活動結構有歧義，無法可靠拆分場次。
+- 其他需要人工判斷且不可由目前來源安全決定的情況。
+
+AI 不自行修正疑似錯誤的來源內容；若矛盾會影響正式資料，移至 needs-review。
 
 ## Validate before commit
 - ID 不重複，只使用小寫英數與連字號。
@@ -19,8 +32,41 @@
 - createdAt 不因更新改變；updatedAt 設為更新日期。
 - 否定資訊（例如「無特殊背卡」）不應視為實際可獲取物，後續整理時移至 notes/details。
 
+## Inbox processing
+使用者說「處理 Inbox」時：
+1. 讀取 inbox/incoming/index.json 與其中列出的 pending 項目。
+2. 每筆只使用該筆使用者提供的來源，不主動外部補查。
+3. 可安全判斷者建立或更新 V2 活動資料。
+4. 完成者移至 inbox/processed/；需要人工判斷者移至 inbox/needs-review/。
+5. 單筆 needs-review 不得阻塞其他 Inbox 項目。
+6. 刪除已搬移的 incoming 原檔並更新 index。
+7. 最後回報處理總數、新增、更新、needs-review、忽略與目前活動總數。
+
+## needs-review
+needs-review 是人工判斷隔離區，不是一般缺資料區。
+
+建議 reasonCode：
+- source-unavailable
+- not-sure-event
+- possible-duplicate
+- conflicting-date
+- conflicting-location
+- ambiguous-structure
+- insufficient-identity
+- other
+
+Review 紀錄應保留原始 Inbox 資料，並增加 review 物件，至少包含 reasonCode、reason；適用時可包含 candidateEventIds 與 suggestedAction。
+
+使用者說「處理 needs-review」時：
+1. 讀取所有待 review 項目。
+2. 不先修改 events.json；逐項整理真正需要使用者決定的問題與選項。
+3. 使用者可選擇新增、更新指定既有活動、忽略、暫緩，或明確授權該項外部查證。
+4. 外部查證授權只適用於指定 review 項目，不改變其他活動的來源規則。
+5. 解決後，可匯入者更新 events.json 並移至 processed；確認忽略者移至 processed 並記錄 ignored；仍無法確定者留在 needs-review。
+6. resolution 應記錄最終處理方式，例如 user_confirmed_new、user_confirmed_update、externally_verified、ignored。
+
 ## Publish
-只更新 data/events.json，GitHub Pages 自動發布；網站不維護第二份活動資料。
+正式活動資料只更新 data/events.json，GitHub Pages 自動發布；網站不維護第二份活動資料。
 
 ## Reply
-回報新增/更新活動、日期、地點/GPS 數量、主要特殊獲取物，以及仍未提供的資訊。
+回報新增/更新活動、日期、地點/GPS 數量、主要特殊獲取物，以及仍未提供的資訊。處理 Inbox 時另回報 needs-review 與忽略數量。
