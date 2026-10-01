@@ -1,0 +1,16 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "2e8bfe54-1bf6-46d1-a147-538c2212bb18",
+  "createdAt": "2026-10-01T03:59:26.392231Z",
+  "type": "link",
+  "text": "https://pokemonhubs.com/pokemongo/54198/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-01T03:59:39.818000+00:00",
+  "processedAt": "2026-10-01",
+  "resultEventIds": [
+    "2026-harvest-festival-applin-picking"
+  ]
+}
