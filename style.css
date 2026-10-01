@@ -4,3 +4,5 @@
 .calendarbox{margin-top:9px}.calendarbtn{font-weight:700}.calendarhelp{margin-top:7px;padding:10px 12px;background:#fff;border:1px solid #d1d5db;border-radius:10px;font-size:13px;line-height:1.7;color:#4b5563}.calendarhelp .btn{margin-top:7px}
 
 .calendarbox>summary{display:inline-block;list-style:none}.calendarbox>summary::-webkit-details-marker{display:none}.calendarurl{width:100%;margin-top:8px;padding:8px 9px;border:1px solid #d1d5db;border-radius:8px;background:#f9fafb;font-size:12px}
+
+.badge.unknown{background:#fee2e2;color:#991b1b}
