@@ -1,0 +1,21 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "ff1a0800-d666-49c6-a4d0-c4d3f19166db",
+  "createdAt": "2026-10-01T07:47:30.391500Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/ff1a0800-d666-49c6-a4d0-c4d3f19166db/4d0ba9da-8ac2-4381-b6a6-05f10efe9d55.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-01T07:47:50.738000+00:00",
+  "processedAt": "2026-10-01",
+  "result": "added_event_from_image",
+  "resultEventIds": [
+    "2026-korea-hangul-day-event"
+  ]
+}
