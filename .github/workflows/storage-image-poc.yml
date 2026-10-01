@@ -2,14 +2,20 @@ name: Storage Image PoC
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "inbox/incoming/**"
 
 permissions:
   contents: read
 
 jobs:
-  fetch-test-image:
+  fetch-inbox-images:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -25,23 +31,47 @@ jobs:
           test -n "$FIREBASE_SERVICE_ACCOUNT_B64"
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 --decode > "$RUNNER_TEMP/firebase-reader.json"
 
-      - name: Download private test image
+      - name: Download pending Inbox images
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-reader.json
         run: |
           python - <<'PY'
+          import json
+          from pathlib import Path
           from google.cloud import storage
+
+          root = Path("inbox/incoming")
+          out = Path("/tmp/firebase-inbox-images")
           client = storage.Client(project="pokemon-go-special-events")
           bucket = client.bucket("pokemon-go-special-events.firebasestorage.app")
-          blob = bucket.blob("212555.jpg")
-          blob.download_to_filename("/tmp/212555.jpg")
-          print("Downloaded private Storage object successfully.")
+          count = 0
+
+          for meta in root.glob("*.json"):
+              if meta.name == "index.json":
+                  continue
+              data = json.loads(meta.read_text(encoding="utf-8"))
+              item_id = data.get("clientItemId", meta.stem)
+              for i, attachment in enumerate(data.get("attachments") or [], 1):
+                  storage_path = attachment.get("storagePath")
+                  if not storage_path:
+                      continue
+                  suffix = Path(storage_path).suffix.lower()
+                  if suffix not in {".jpg", ".jpeg", ".png", ".webp"}:
+                      suffix = ".jpg"
+                  target = out / item_id / f"{i:02d}{suffix}"
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  bucket.blob(storage_path).download_to_filename(str(target))
+                  count += 1
+
+          print(f"Downloaded {count} Inbox image(s).")
+          if count == 0:
+              raise SystemExit("No pending Inbox images found.")
           PY
 
-      - name: Upload temporary PoC artifact
+      - name: Upload temporary private Inbox images
         uses: actions/upload-artifact@v4
         with:
-          name: firebase-storage-poc
-          path: /tmp/212555.jpg
+          name: firebase-inbox-images
+          path: /tmp/firebase-inbox-images
           retention-days: 1
           if-no-files-found: error
