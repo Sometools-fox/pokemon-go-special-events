@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "inbox/incoming/**"
+      - ".github/workflows/storage-image-poc.yml"
 
 permissions:
   contents: read
