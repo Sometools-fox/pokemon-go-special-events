@@ -39,3 +39,10 @@ Android → Firebase → GitHub incoming → 使用者說「處理 Inbox」→ C
 APK 不保存 GitHub PAT。手機只可呼叫受控 Inbox 同步機制。
 正式 events.json 仍由 V2 驗證流程更新。
 除非使用者明確授權指定項目，活動資料只依使用者提供來源，不主動搜尋外部資料補缺。
+
+## 圖片生命週期
+- incoming：Firebase Storage 圖片保留，供處理流程讀取。
+- needs-review：圖片持續保留，直到人工完成判斷。
+- processed：GitHub Actions 只刪除該 processed metadata 明確引用、且未被 incoming / needs-review 引用的 collector/ 圖片。
+- orphan 保險清理：每天檢查 collector/；超過 30 天且未被 incoming / needs-review 引用的物件才可刪除。
+- Android 上傳或 Firestore 寫入失敗時，Collector 會嘗試刪除本次已上傳圖片，避免產生新的 orphan。
