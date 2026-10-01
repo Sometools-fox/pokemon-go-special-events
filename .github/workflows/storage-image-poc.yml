@@ -1,0 +1,47 @@
+name: Storage Image PoC
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-test-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Cloud Storage client
+        run: pip install google-cloud-storage==3.4.1
+
+      - name: Restore reader credentials
+        env:
+          FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
+        run: |
+          test -n "$FIREBASE_SERVICE_ACCOUNT_B64"
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 --decode > "$RUNNER_TEMP/firebase-reader.json"
+
+      - name: Download private test image
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-reader.json
+        run: |
+          python - <<'PY'
+          from google.cloud import storage
+          client = storage.Client(project="pokemon-go-special-events")
+          bucket = client.bucket("pokemon-go-special-events.firebasestorage.app")
+          blob = bucket.blob("212555.jpg")
+          blob.download_to_filename("/tmp/212555.jpg")
+          print("Downloaded private Storage object successfully.")
+          PY
+
+      - name: Upload temporary PoC artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: firebase-storage-poc
+          path: /tmp/212555.jpg
+          retention-days: 1
+          if-no-files-found: error
