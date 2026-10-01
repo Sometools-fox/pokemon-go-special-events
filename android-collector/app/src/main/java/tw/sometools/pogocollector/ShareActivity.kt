@@ -37,7 +37,7 @@ class ShareActivity:Activity(){
   finish()
  }
 
- private fun copyToPrivateInbox(uri:Uri):String? = try {
+ private fun copyToPrivateInbox(uri:Uri):String? {\n  return try {
   val mime=contentResolver.getType(uri)?:"image/jpeg"
   val ext=when(mime){"image/png"->"png";"image/webp"->"webp";else->"jpg"}
   val dir=File(filesDir,"shared-images").apply{mkdirs()}
