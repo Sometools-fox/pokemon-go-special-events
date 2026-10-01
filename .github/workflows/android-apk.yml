@@ -59,12 +59,12 @@ jobs:
           gradle :app:assembleDebug --stacktrace
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk PokemonGO-Event-Collector-V1.2-fixed-signature.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk PokemonGO-Event-Collector-V1.4.0.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: PokemonGO-Event-Collector-V1.2-fixed-signature
-          path: android-collector/PokemonGO-Event-Collector-V1.2-fixed-signature.apk
+          name: PokemonGO-Event-Collector-V1.4.0
+          path: android-collector/PokemonGO-Event-Collector-V1.4.0.apk
           if-no-files-found: error
           retention-days: 30
