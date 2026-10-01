@@ -1,0 +1,16 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "0270a15e-d609-4583-ade3-af17c09cf69a",
+  "createdAt": "2026-10-01T04:09:37.621794Z",
+  "type": "link",
+  "text": "https://pokemonhubs.com/pokemongo/10805/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-01T07:13:44.993000+00:00",
+  "processedAt": "2026-10-01",
+  "result": "not_event_source",
+  "resultEventIds": [],
+  "reason": "來源為持續更新的 Pokémon GO 兌換代碼／換領方法彙整頁，不是單一特殊活動事件。"
+}
