@@ -1,0 +1,228 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sometools-fox//Pokemon GO Special Events//ZH-Hant
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pokémon GO 特殊活動
+X-WR-CALDESC:Pokémon GO 特殊活動資料庫
+BEGIN:VEVENT
+UID:2026-klcc-pokexciting@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:PokéXciting! Kuala Lumpur
+LOCATION:KLCC Park
+DESCRIPTION:特殊獲取物：PokéXciting! 藍色爆炸頭／活動T恤
+ 皮卡丘、吉隆坡 Location Card 皮卡丘、派對帽妙蛙種子／
+ 小火龍／傑尼龜／拉達／臭泥／伊布 +5\n詳細資料：http
+ s://sometools-fox.github.io/pokemon-go-special-events/event.html?id=2026
+ -klcc-pokexciting
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-klcc-pokexciting
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-ana-green-pokemon-jet-phase2@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20270901
+SUMMARY:ANA × Pokémon GO「Green Pokémon Jet」第二階段
+LOCATION:高知機場
+DESCRIPTION:特殊獲取物：Green Pokémon Jet 特殊背景妙蛙種子
+ \n詳細資料：https://sometools-fox.github.io/pokemon-go-special-even
+ ts/event.html?id=2026-ana-green-pokemon-jet-phase2
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-ana-green-pokemon-jet-phase2
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-korea-pikachu-autumn-picnic@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261012
+SUMMARY:皮卡丘的秋日野餐
+LOCATION:光化門廣場－世宗大王銅像前
+DESCRIPTION:特殊獲取物：橘色韓服皮卡丘\n詳細資料：https
+ ://sometools-fox.github.io/pokemon-go-special-events/event.html?id=2026-
+ korea-pikachu-autumn-picnic
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-korea-pikachu-autumn-picnic
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-korea-pikachu-partners@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260927
+SUMMARY:皮卡丘的韓國夥伴們
+LOCATION:韓國全境
+DESCRIPTION:特殊獲取物：活動限定調查獎勵\n詳細資料：ht
+ tps://sometools-fox.github.io/pokemon-go-special-events/event.html?id=20
+ 26-korea-pikachu-partners
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-korea-pikachu-partners
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-ph@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:Pokémon RUN 2026
+LOCATION:SM Mall of Asia
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-ph
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-ph
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-tw-taichung@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:Pokémon RUN 2026
+LOCATION:中央公園
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-tw-taichung
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-tw-taichung
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-tw-kaohsiung@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:Pokémon RUN 2026
+LOCATION:夢時代
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-tw-kaohsiung
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-tw-kaohsiung
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-sg@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:Pokémon RUN 2026
+LOCATION:The Kallang
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-sg
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-sg
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-tw-newtaipei@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Pokémon RUN 2026
+LOCATION:新北大都會公園
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-tw-newtaipei
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-tw-newtaipei
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-id-jakarta@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Pokémon RUN 2026
+LOCATION:Gelora Bung Karno（GBK）
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-id-jakarta
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-id-jakarta
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-th@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270111
+SUMMARY:Pokémon RUN 2026
+LOCATION:網頁未提供具體地點
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-th
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-th
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-run-2026-hk@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:Pokémon RUN 2026
+LOCATION:香港科學園
+DESCRIPTION:特殊獲取物：未知圖騰 N／R／U、無特殊背卡\n
+ 詳細資料：https://sometools-fox.github.io/pokemon-go-special-events
+ /event.html?id=pokemon-run-2026-hk
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=pokemon-run-2026-hk
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-harvest-festival-applin-picking@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261006
+SUMMARY:Harvest Festival 2026: Applin Picking
+DESCRIPTION:特殊獲取物：異色啃果蟲首次登場、異色迷你
+ 芙\n詳細資料：https://sometools-fox.github.io/pokemon-go-special-e
+ vents/event.html?id=2026-harvest-festival-applin-picking
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-harvest-festival-applin-picking
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-kanto-pokepark-articuno-background-raids@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261008
+SUMMARY:⚠️ KANTO PokéPark 背景急凍鳥團體戰
+LOCATION:讀賣樂園
+DESCRIPTION:特殊獲取物：KANTO PokéPark 背景急凍鳥\n詳細資
+ 料：https://sometools-fox.github.io/pokemon-go-special-events/event.ht
+ ml?id=2026-kanto-pokepark-articuno-background-raids
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=2026-kanto-pokepark-articuno-background-raids
+END:VEVENT
+BEGIN:VEVENT
+UID:unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05@pokem
+ on-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261006
+SUMMARY:⚠️ 豐收節：火箭隊佔領
+DESCRIPTION:詳細資料：https://sometools-fox.github.io/pokemon-go-spe
+ cial-events/event.html?id=unknown-year-harvest-festival-team-go-rocket-t
+ akeover-oct-02-05
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05
+END:VEVENT
+BEGIN:VEVENT
+UID:unknown-year-gigantamax-cinderace-max-battle-day-oct-03@pokemon-go-sp
+ ecial-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:⚠️ 超極巨閃焰王牌極巨對戰日
+DESCRIPTION:特殊獲取物：超極巨閃焰王牌\n詳細資料：https
+ ://sometools-fox.github.io/pokemon-go-special-events/event.html?id=unkno
+ wn-year-gigantamax-cinderace-max-battle-day-oct-03
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=unknown-year-gigantamax-cinderace-max-battle-day-oct-03
+END:VEVENT
+BEGIN:VEVENT
+UID:unknown-year-space-week-oct-04-10@pokemon-go-special-events
+DTSTAMP:20261001T081356Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261011
+SUMMARY:⚠️ 太空週
+DESCRIPTION:詳細資料：https://sometools-fox.github.io/pokemon-go-spe
+ cial-events/event.html?id=unknown-year-space-week-oct-04-10
+URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
+ id=unknown-year-space-week-oct-04-10
+END:VEVENT
+END:VCALENDAR
