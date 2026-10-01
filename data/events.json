@@ -935,5 +935,122 @@
     },
     "createdAt": "2026-10-01",
     "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05",
+    "name": "豐收節：火箭隊佔領",
+    "schedule": {
+      "startDate": null,
+      "endDate": null,
+      "timeNote": "10月2日～10月5日（來源圖片未提供年份與每日時間）",
+      "timeStatus": "partial"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [],
+    "details": [],
+    "notes": [
+      "來源圖片僅提供活動名稱與月日範圍，未提供年份、地區、GPS或特殊獲取物。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://pokemonhubs.com/pokemongo/53798/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動年份未由來源圖片明確提供",
+        "每日活動時間未提供",
+        "活動地區／實體地點未提供",
+        "GPS 座標未提供",
+        "特殊獲取物未提供"
+      ]
+    },
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "unknown-year-gigantamax-cinderace-max-battle-day-oct-03",
+    "name": "超極巨閃焰王牌極巨對戰日",
+    "schedule": {
+      "startDate": null,
+      "endDate": null,
+      "timeNote": "10月3日（來源圖片未提供年份與活動時間）",
+      "timeStatus": "partial"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "超極巨",
+        "name": "超極巨閃焰王牌",
+        "shiny": null,
+        "note": "來源圖片的活動名稱明確標示「超極巨閃焰王牌極巨對戰日」；未提供其他獲取細節。"
+      }
+    ],
+    "details": [],
+    "notes": [
+      "來源圖片僅提供活動名稱與月日，未提供年份、地區或GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://pokemonhubs.com/pokemongo/53798/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動年份未由來源圖片明確提供",
+        "活動時間未提供",
+        "活動地區／實體地點未提供",
+        "GPS 座標未提供"
+      ]
+    },
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "unknown-year-space-week-oct-04-10",
+    "name": "太空週",
+    "schedule": {
+      "startDate": null,
+      "endDate": null,
+      "timeNote": "10月4日～10月10日（來源圖片未提供年份與每日時間）",
+      "timeStatus": "partial"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [],
+    "details": [],
+    "notes": [
+      "來源圖片僅提供活動名稱與月日範圍，未提供年份、地區、GPS或特殊獲取物。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://pokemonhubs.com/pokemongo/53798/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動年份未由來源圖片明確提供",
+        "每日活動時間未提供",
+        "活動地區／實體地點未提供",
+        "GPS 座標未提供",
+        "特殊獲取物未提供"
+      ]
+    },
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
   }
 ]
