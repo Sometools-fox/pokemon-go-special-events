@@ -1,0 +1,27 @@
+name: Cleanup Firebase Inbox Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-cloud-storage==3.4.1
+      - name: Restore reader credentials
+        env:
+          FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
+        run: |
+          test -n "$FIREBASE_SERVICE_ACCOUNT_B64"
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 --decode > "$RUNNER_TEMP/firebase-reader.json"
+      - name: Dry-run cleanup
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-reader.json
+        run: python scripts/cleanup_firebase_images.py
