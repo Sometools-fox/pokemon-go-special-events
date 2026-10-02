@@ -1,0 +1,15 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "d3e48627-0285-47ba-8d23-f306923373d9",
+  "createdAt": "2026-10-01T08:44:02.513158Z",
+  "type": "link",
+  "text": "https://www.facebook.com/share/p/1EGTwSAcCv/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "needs-review",
+  "uploadedAt": "2026-10-01T08:44:12.732000+00:00",
+  "reviewReason": "insufficient-identity",
+  "reviewedAt": "2026-10-02",
+  "reason": "完整 Facebook 分享 URL 已保留；直接讀取遇到 Cache miss 後，依 URL 規則以完整 URL、分享 ID 與外部搜尋交叉查證，仍無法可靠辨識貼文對應的 Pokémon GO 活動內容。Cache miss 本身未視為 source-unavailable。"
+}
