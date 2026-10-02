@@ -1103,5 +1103,60 @@
     },
     "createdAt": "2026-10-01",
     "updatedAt": "2026-10-01"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-us-pokemon-tcg-30th-collaboration",
+    "name": "Pokémon GO × Pokémon TCG 30週年美國限定合作活動",
+    "schedule": {
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-31",
+      "timeNote": "合作內容分段：指定門市超級耿鬼團體戰與限時調查取得期間為 9月27日～10月20日；耿鬼針織帽禮物卡兌換期間為 9月27日～10月31日。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "美國"
+    ],
+    "locations": [],
+    "locationStatus": "partial",
+    "specialRewards": [
+      {
+        "category": "團體戰",
+        "name": "超級耿鬼",
+        "shiny": null,
+        "note": "2026年9月27日至10月20日於指定 Best Buy、GameStop、Target 門市參與。"
+      },
+      {
+        "category": "換裝道具",
+        "name": "耿鬼針織帽",
+        "shiny": null,
+        "note": "2026年9月27日至10月31日，購買指定通路 Pokémon GO 禮物卡並透過 Web Store 兌換；每帳號最多一次。"
+      }
+    ],
+    "details": [
+      "指定 Best Buy、GameStop、Target 門市提供活動限定限時調查。",
+      "限時調查需於 2026-10-20 22:00（當地時間）前至指定門市取得；完成及領取獎勵期限為 2026-11-20 22:00。",
+      "限時調查獎勵包含精靈球、活動主題寶可夢相遇及其他遊戲內獎勵。"
+    ],
+    "notes": [
+      "原始網址曾因單次抓取 Cache miss 被誤標 source-unavailable；依新規則重新搜尋後，搜尋索引已可靠辨識原頁面內容。",
+      "來源僅列出參與零售通路，未提供各門市實體地址或 GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://pokemonhubs.com/pokemongo/54150/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "各參與門市的實體地址未逐店提供",
+        "GPS 座標未提供",
+        "活動主題限時調查的寶可夢相遇種類未明確列出"
+      ]
+    },
+    "createdAt": "2026-10-02",
+    "updatedAt": "2026-10-02"
   }
 ]
