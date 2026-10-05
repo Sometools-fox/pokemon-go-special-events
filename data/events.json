@@ -1119,5 +1119,112 @@
     },
     "createdAt": "2026-10-02",
     "updatedAt": "2026-10-02"
+  },
+  {
+    "schemaVersion": 2,
+    "name": "Pokémon 30週年商場探索活動",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "派對帽皮卡丘",
+        "shiny": null,
+        "note": "來源圖片指出可透過臨時調查與派對帽皮卡丘會面。"
+      }
+    ],
+    "details": [
+      "可在活動商場申請臨時調查；兩個地點的調查結果相同。",
+      "來源圖片指出指定區域內的誘餌模組效果持續 4 小時。"
+    ],
+    "notes": [
+      "來源圖片明確列出商場、日期與 GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "id": "2026-pokemon-30th-mall-exploration-malaysia-ombak-klcc",
+    "schedule": {
+      "startDate": "2026-01-10",
+      "endDate": "2026-12-31",
+      "timeNote": "1月10日～2026年12月31日；開始年份依處理年份推定為 2026。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "馬來西亞",
+      "吉隆坡"
+    ],
+    "locations": [
+      {
+        "name": "Ombak KLCC",
+        "lat": 3.1571,
+        "lng": 101.7177,
+        "note": "來源圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "來源僅標示開始日為1月10日，未明寫開始年份；依處理年份推定為2026。"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "name": "Pokémon 30週年商場探索活動",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "派對帽皮卡丘",
+        "shiny": null,
+        "note": "來源圖片指出可透過臨時調查與派對帽皮卡丘會面。"
+      }
+    ],
+    "details": [
+      "可在活動商場申請臨時調查；兩個地點的調查結果相同。",
+      "來源圖片指出指定區域內的誘餌模組效果持續 4 小時。"
+    ],
+    "notes": [
+      "來源圖片明確列出商場、日期與 GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "id": "2026-pokemon-30th-mall-exploration-philippines-sm-mall-of-asia",
+    "schedule": {
+      "startDate": "2026-10-01",
+      "endDate": "2027-01-31",
+      "timeNote": "2026年10月1日～2027年1月31日",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "菲律賓"
+    ],
+    "locations": [
+      {
+        "name": "SM Mall of Asia",
+        "lat": 14.5358,
+        "lng": 120.9805,
+        "note": "來源圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    }
   }
 ]
