@@ -1,0 +1,19 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "d2406ab0-0ef3-4627-bc14-0bb583cec4fa",
+  "createdAt": "2026-10-04T09:26:14.077204Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/d2406ab0-0ef3-4627-bc14-0bb583cec4fa/eef45eb2-8046-43f7-8c1f-c557663099ed.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "needs-review",
+  "uploadedAt": "2026-10-04T09:26:32.645000+00:00",
+  "reviewReason": "not-sure-event",
+  "reviewedAt": "2026-10-05",
+  "reviewNote": "圖片內容為訓練家回報／推測：歐洲六座 ESA 參與博物館活動期間有 Blipbug 閃光版本回報。圖片未提供活動正式日期，且文字本身詢問是否為驚喜首秀、全球性或誤觸發，因此不足以當作已確認活動資料寫入 events.json。可安全辨識六個地點及 GPS。"
+}
