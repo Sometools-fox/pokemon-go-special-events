@@ -992,10 +992,20 @@
     "regions": [],
     "locations": [],
     "locationStatus": "not_provided",
-    "specialRewards": [],
-    "details": [],
+    "specialRewards": [
+      {
+        "category": "異色",
+        "name": "異色 Blipbug",
+        "shiny": true,
+        "note": "使用者確認收錄於「太空週」；來源圖片為歐洲 ESA 參與博物館的訓練家回報。"
+      }
+    ],
+    "details": [
+      "來源圖片回報：歐洲六座 ESA 參與博物館活動期間出現 Blipbug 異色版本。"
+    ],
     "notes": [
-      "來源圖片僅提供活動名稱與月日範圍，年份已由使用者確認為 2026；來源未提供地區、GPS或特殊獲取物。"
+      "來源圖片僅提供活動名稱與月日範圍，年份已由使用者確認為 2026；來源未提供地區、GPS或特殊獲取物。",
+      "2026-10-05 使用者確認將 ESA／Blipbug 圖片資訊收錄於「太空週」。"
     ],
     "sources": [
       {
@@ -1008,12 +1018,11 @@
       "unresolved": [
         "每日活動時間未提供",
         "活動地區／實體地點未提供",
-        "GPS 座標未提供",
-        "特殊獲取物未提供"
+        "GPS 座標未提供"
       ]
     },
     "createdAt": "2026-10-01",
-    "updatedAt": "2026-10-02"
+    "updatedAt": "2026-10-05"
   },
   {
     "schemaVersion": 2,
