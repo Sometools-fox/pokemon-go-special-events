@@ -21,3 +21,54 @@ body{overflow:hidden}.appShell{height:100vh;display:grid;grid-template-columns:2
 @media(min-width:801px){
 body{background:#eef2f7;color:#172033}.appShell{max-width:none;grid-template-columns:286px minmax(0,1fr);background:#f7f9fc}.desktopSide{background:#f8fafc;color:#172033;border-right:1px solid #dbe3ee;padding:24px 20px;box-shadow:3px 0 14px #0f172a0a}.sidebrand{padding:2px 2px 18px;border-bottom:1px solid #e2e8f0;margin-bottom:14px}.sidebrand h1{color:#172033;font-size:23px;letter-spacing:-.3px}.sidebrand p{color:#64748b;margin:5px 0 0}.desktopSide .toolbar{background:transparent;padding:0}.desktopSide input[type=search],.desktopSide select,.desktopSide .rewardfilter>summary{border-color:#d7dee9;background:#fff;color:#263244;box-shadow:0 1px 2px #0f172a08}.desktopSide input[type=search]:focus,.desktopSide select:focus{outline:2px solid #bfdbfe;border-color:#93c5fd}.desktopSide .filters{margin-top:9px}.desktopSide .toggle{color:#475569;padding:5px 3px}.desktopSide .calendarbox{border-top:1px solid #e2e8f0;margin-top:12px;padding-top:12px}.desktopSide .calendarbtn{background:#fff;color:#334155;border-color:#d7dee9;padding:8px 10px}.desktopSide .calendarhelp{box-shadow:0 6px 18px #0f172a0d}.mainPane{background:#f7f9fc}.summary{color:#64748b}.eventgroup>summary{border:1px solid transparent}.eventgroup.active>summary{background:#e8f7ef;color:#18734a;border-color:#d5efe1}.eventgroup.upcoming>summary{background:#eaf3fc;color:#27649a;border-color:#d9e9f7}.eventgroup.ended>summary{background:#eef1f5;color:#5d6878;border-color:#e0e5eb}.compactcard{border-color:#e1e7ef;box-shadow:0 1px 3px #0f172a0a}.compacttitle h2{color:#173f36}.compactmeta{color:#69778a}.compactrewards .reward{background:#f0f4ff;color:#4058a6}.countdown.active{background:#e1f6e9;color:#177245}.countdown.upcoming{background:#e4f0fb;color:#28679c}.gpscount{color:#536174}.chevron{color:#718096}
 }
+
+/* Desktop sidebar visual reset */
+@media(min-width:801px){
+html,body{background:#f4f7fb!important}
+.appShell{background:#f4f7fb!important}
+.desktopSide{
+  background:#f8fafc!important;color:#1e293b!important;
+  border-right:1px solid #dbe3ec!important;box-shadow:2px 0 10px rgba(15,23,42,.04)!important;
+  padding:26px 22px!important
+}
+.sidebrand{padding:0 2px 18px!important;margin:0 0 18px!important;border-bottom:1px solid #e2e8f0!important}
+.sidebrand h1{color:#183153!important;font-size:23px!important;font-weight:750!important;margin:0!important}
+.sidebrand p{color:#64748b!important;margin:6px 0 0!important}
+.desktopSide .toolbar{
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;padding:0!important;margin:0!important
+}
+.desktopSide .toolbar>*{background:transparent}
+.desktopSide .filters{background:transparent!important;margin-top:10px!important;gap:10px!important}
+.desktopSide input[type="search"],.desktopSide select,.desktopSide .rewardfilter>summary{
+  width:100%;min-height:46px;background:#fff!important;color:#253247!important;
+  border:1px solid #d8e0ea!important;border-radius:10px!important;
+  box-shadow:0 1px 2px rgba(15,23,42,.035)!important
+}
+.desktopSide input[type="search"]{padding:0 13px!important}
+.desktopSide .rewardfilter{background:transparent!important}
+.desktopSide .rewardfilter>summary{display:flex!important;align-items:center!important;padding:0 13px!important}
+.desktopSide .rewardmenu{border-color:#d8e0ea!important;box-shadow:0 8px 22px rgba(15,23,42,.10)!important}
+.desktopSide .toggle{
+  background:transparent!important;color:#526176!important;
+  min-height:38px;display:flex;align-items:center;gap:8px;padding:2px 4px!important
+}
+.desktopSide .calendarbox{
+  background:transparent!important;border:0!important;border-top:1px solid #e2e8f0!important;
+  padding:15px 0 0!important;margin:12px 0 0!important
+}
+.desktopSide .calendarbtn{
+  width:100%;justify-content:flex-start;background:#fff!important;color:#334155!important;
+  border:1px solid #d8e0ea!important;border-radius:10px!important;box-shadow:0 1px 2px rgba(15,23,42,.035)!important
+}
+.desktopSide .calendarhelp{background:#fff!important;border-color:#d8e0ea!important}
+.mainPane{background:#f4f7fb!important}
+.mainPane>.wrap{padding-left:16px!important;padding-right:16px!important}
+.summary{color:#708095!important}
+.eventgroup.active>summary{background:#e9f6ef!important;color:#176b47!important}
+.eventgroup.upcoming>summary{background:#eaf2fb!important;color:#275f92!important}
+.eventgroup.ended>summary{background:#e9edf2!important;color:#536171!important}
+.compactcard{background:#fff!important;border-color:#dde5ee!important}
+.compacttitle h2{color:#174c40!important}
+.compactmeta{color:#6c7a8d!important}
+}
