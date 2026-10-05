@@ -8,7 +8,7 @@ on:
       - ".github/workflows/storage-image-poc.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   fetch-inbox-images:
@@ -69,6 +69,20 @@ jobs:
           print(f"Downloaded {count} Inbox image(s).")
           Path("/tmp/inbox-image-count").write_text(str(count), encoding="utf-8")
           PY
+
+      - name: Publish latest image run locator
+        if: success()
+        run: |
+          mkdir -p inbox
+          printf '{\n  "workflow": "Fetch Inbox Images",\n  "runId": "%s",\n  "runAttempt": "%s",\n  "commitSha": "%s",\n  "imageCount": %s\n}\n' "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" "$GITHUB_SHA" "$(cat /tmp/inbox-image-count)" > inbox/latest-image-run.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inbox/latest-image-run.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update latest Inbox image run locator"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Check downloaded image count
         id: images
