@@ -106,6 +106,9 @@ Review 紀錄應保留原始 Inbox 資料，並增加 review 物件，至少包�
 - 凡 Inbox 項目有提供 URL，使用者已長期授權外部查證，不需逐筆再次詢問；原網址可讀時以原頁內容為主要來源。
 - 原網址無法直接讀取、內容不足或需要交叉確認時，依序以 **完整原始 URL → 網域＋完整路徑／文章 ID → 可取得的頁面標題／活動識別資訊 → 其他可靠外部來源** 查證。
 - **Cache miss ≠ source-unavailable。** Cache miss 只代表該次抓取／快取路徑未取得內容，不得直接判定 URL 非法、文章不存在或來源不可用。
+- **URL 不得因單次抓取失敗直接進 needs-review。** 在標記 source-unavailable／insufficient-identity 前，必須完成並記錄 URL retrieval checklist：`directFetchAttempted`、`directRetryAttempted`、`searchAttempted`、`externalVerificationAttempted`。有 URL 的項目已取得長期外部查證授權，因此上述步驟不得因「尚未詢問使用者」而跳過。
+- 若 URL 最終仍需進 needs-review，`review.urlRetrieval` 必須保留完整原始 URL、各階段是否執行、各階段結果摘要及最後判定。缺少此紀錄時，不得以 source-unavailable／insufficient-identity 完成該筆處理。
+- 若稍後原始 URL 可正常取得全文，應優先更正先前錯誤的 needs-review：以原文更新既有活動／建立活動，將該 Inbox 移至 processed，並移除不再成立的 unresolved。
 - 只有在重試原 URL、搜尋索引及合理外部查證後，仍不足以可靠辨識基本活動身分，才可標記 source-unavailable／needs-review。
 - 外部查證所得資訊必須與原始 URL 直接取得的內容區分，不得偽裝成原頁面內容。
 - 沒有 URL 的圖片／純文字項目仍只依使用者提供內容處理，不主動外部補查，除非使用者另行授權。
