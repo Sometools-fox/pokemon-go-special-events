@@ -1372,5 +1372,226 @@
       "gpsStatus": "complete",
       "unresolved": []
     }
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-ana-red-pokemon-jet",
+    "name": "ANA × Pokémon GO「Red Pokémon Jet」日本限定活動",
+    "schedule": {
+      "startDate": "2026-07-28",
+      "endDate": "2027-08-31",
+      "timeNote": "2026年7月28日 16:00 ～ 2027年8月31日 20:00（日本當地時間）",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "日本"
+    ],
+    "locations": [
+      {
+        "name": "新千歲機場",
+        "lat": 42.78753,
+        "lng": 141.67685,
+        "note": "指定活動機場",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "函館機場",
+        "lat": 41.77588,
+        "lng": 140.81541,
+        "note": "指定活動機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "秋田機場",
+        "lat": 39.61208,
+        "lng": 140.21958,
+        "note": "指定活動機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台機場",
+        "lat": 38.13775,
+        "lng": 140.92943,
+        "note": "指定活動機場",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "羽田機場（第2航廈）",
+        "lat": 35.55065,
+        "lng": 139.78804,
+        "note": "指定活動機場／航廈",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "羽田機場（第3航廈）",
+        "lat": 35.54462,
+        "lng": 139.76778,
+        "note": "指定活動機場／航廈",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "成田機場（第1航廈）",
+        "lat": 35.76536,
+        "lng": 140.3863,
+        "note": "指定活動機場／航廈",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "Red Pokémon Jet 地點背景小火龍",
+        "shiny": true,
+        "note": "指定機場一星團體戰；來源指出小火龍可為異色。"
+      }
+    ],
+    "details": [
+      "指定機場的一星團體戰會出現小火龍。",
+      "訓練家每天可在每個指定道館參與一次團體戰。",
+      "活動提供一次性的限時調查，可獲得與活動主題寶可夢相遇的機會。"
+    ],
+    "notes": [],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/07/08/ana-pokemon-go-2026/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-halloween-part-1",
+    "name": "Halloween 2026 Part 1",
+    "schedule": {
+      "startDate": "2026-10-27",
+      "endDate": "2026-11-01",
+      "timeNote": "10月27日 10:00 ～ 11月1日 10:00（來源圖片未標示時區）",
+      "timeStatus": "provided"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "戴帽子與披風的皮卡丘",
+        "shiny": true,
+        "note": "來源圖片顯示可遇見異色版本。"
+      },
+      {
+        "category": "特殊造型",
+        "name": "戴高帽的超音蝠",
+        "shiny": true,
+        "note": "來源圖片顯示可遇見異色版本。"
+      },
+      {
+        "category": "特殊造型",
+        "name": "戴彩虹蝴蝶結的來悲茶",
+        "shiny": true,
+        "note": "來源圖片顯示可遇見異色版本。"
+      },
+      {
+        "category": "換裝道具",
+        "name": "Halloween 主題訓練家服裝",
+        "shiny": null,
+        "note": "活動開始後可於遊戲內商店購買。"
+      }
+    ],
+    "details": [
+      "活動包含 Event-Themed Pokémon 遭遇。",
+      "Trick or Treat Halloween Boxes 可能包含活動主題寶可夢遭遇。",
+      "GO Pass: Halloween 2026 免費路線包含捕捉糖果×2、捕捉星星沙子×2；Deluxe 路線為×3。",
+      "活動期間加入 Halloween 場景裝飾與 Lavender Town 音樂。"
+    ],
+    "notes": [
+      "僅依 Inbox 圖片整理；圖片未提供地區、GPS 或明確時區。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動地區／實體地點未提供",
+        "GPS 座標未提供",
+        "活動時間的時區未由圖片明確標示"
+      ]
+    },
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokemon-observatory-toyohashi",
+    "name": "Pokémon 天文台 × Pokémon GO（豐橋市自然史博物館）",
+    "schedule": {
+      "startDate": "2026-09-21",
+      "endDate": "2026-12-06",
+      "timeNote": "2026年9月21日～12月6日；原始 URL 無法直接完整取得，日期由可取得的原頁索引與外部可靠來源交叉確認。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "日本",
+      "愛知縣",
+      "豐橋市"
+    ],
+    "locations": [
+      {
+        "name": "豐橋市自然史博物館",
+        "lat": 34.7206,
+        "lng": 137.4324,
+        "note": "位於豐橋綜合動植物公園（のんほいパーク）內；座標由外部查證補充。",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "Pokémon 天文台特殊背景皮皮",
+        "shiny": null,
+        "note": "可透過活動地點的田野調查遇見；來源未明確確認異色狀態。"
+      }
+    ],
+    "details": [
+      "活動地點的田野調查可遇見帶有特殊背景的皮皮。",
+      "外部查證顯示太陽岩、月石亦可由田野調查取得，但沒有特殊背景。",
+      "活動範圍位於博物館周邊。"
+    ],
+    "notes": [
+      "原始 URL 直接取得失敗；已依 URL 規則以完整網址、頁面標題／索引與外部來源完成查證，外部補充內容與原始 URL 直接內容分開記錄。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/20/jp-clefairy-toyohashi-museum-aichi/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "原始 URL 正文未能直接完整取得"
+      ]
+    },
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
   }
 ]
