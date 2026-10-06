@@ -2,6 +2,11 @@ name: Fetch Inbox Images
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Sync Firestore Inbox"
+    types:
+      - completed
   push:
     paths:
       - "inbox/incoming/**"
@@ -12,6 +17,9 @@ permissions:
 
 jobs:
   fetch-inbox-images:
+    # Sync Firestore Inbox commits with GITHUB_TOKEN do not reliably trigger
+    # another workflow via push. workflow_run is the automatic bridge.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
