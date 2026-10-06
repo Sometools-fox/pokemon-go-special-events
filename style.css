@@ -11,79 +11,168 @@
 @media(max-width:650px){.eventgroup{margin:8px 0}.eventgroup>summary{padding:10px 11px;font-size:16px}.eventgroup>summary small{display:none}.cardmain{padding:10px;gap:7px}.compacttitle{align-items:flex-start}.compacttitle h2{font-size:15px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.compacttitle .badge{display:inline-block;margin:0;font-size:10px;padding:3px 6px}.compactmeta{display:block;margin-top:3px;font-size:12px}.compactmeta span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.compactrewards{margin-top:4px}.compactrewards .reward{font-size:11px;padding:3px 5px}.compactside{display:flex;flex-direction:column;gap:4px;align-items:flex-end}.countdown{font-size:10.5px;padding:3px 6px}.gpscount{font-size:14px}.chevron{display:none}}
 
 .desktopSide{display:none}
-@media(min-width:801px){
-body{overflow:hidden}.appShell{height:100vh;display:grid;grid-template-columns:270px minmax(0,1fr);max-width:1500px;margin:auto}.desktopSide{display:block;background:#111827;color:#fff;padding:22px 18px;height:100vh}.sidebrand h1{font-size:22px}.sidebrand p{margin:5px 0 20px;color:#cbd5e1;font-size:13px}.mainPane{min-width:0;height:100vh}.mainPane>header{display:none}.mainPane>.wrap{width:100%;height:100vh;padding:0 14px;margin:0;display:flex;flex-direction:column}.toolbar{position:static;padding:14px 0 8px}.quick{display:none}.filters{grid-template-columns:1fr;gap:8px}.toggle{padding:3px 2px}.calendarbox{margin-top:8px}.summary{margin:2px 0 8px}.mainPane #events{min-height:0;flex:1;display:flex;flex-direction:column;padding-bottom:10px}.eventgroup{margin:0 0 6px;flex:0 0 auto}.eventgroup[open]{min-height:0;flex:1;display:flex;flex-direction:column}.eventgroup[open]>.groupcards{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding-right:3px}.eventgroup>summary{flex:0 0 auto}.compactcard:first-child{margin-top:7px}.compactcard:last-child{margin-bottom:7px}
-}
-@media(min-width:801px){
-.desktopSide .toolbar{display:block}
-}
 
+/* Desktop layout: single source of truth */
 @media(min-width:801px){
-body{background:#eef2f7;color:#172033}.appShell{max-width:none;grid-template-columns:286px minmax(0,1fr);background:#f7f9fc}.desktopSide{background:#f8fafc;color:#172033;border-right:1px solid #dbe3ee;padding:24px 20px;box-shadow:3px 0 14px #0f172a0a}.sidebrand{padding:2px 2px 18px;border-bottom:1px solid #e2e8f0;margin-bottom:14px}.sidebrand h1{color:#172033;font-size:23px;letter-spacing:-.3px}.sidebrand p{color:#64748b;margin:5px 0 0}.desktopSide .toolbar{background:transparent;padding:0}.desktopSide input[type=search],.desktopSide select,.desktopSide .rewardfilter>summary{border-color:#d7dee9;background:#fff;color:#263244;box-shadow:0 1px 2px #0f172a08}.desktopSide input[type=search]:focus,.desktopSide select:focus{outline:2px solid #bfdbfe;border-color:#93c5fd}.desktopSide .filters{margin-top:9px}.desktopSide .toggle{color:#475569;padding:5px 3px}.desktopSide .calendarbox{border-top:1px solid #e2e8f0;margin-top:12px;padding-top:12px}.desktopSide .calendarbtn{background:#fff;color:#334155;border-color:#d7dee9;padding:8px 10px}.desktopSide .calendarhelp{box-shadow:0 6px 18px #0f172a0d}.mainPane{background:#f7f9fc}.summary{color:#64748b}.eventgroup>summary{border:1px solid transparent}.eventgroup.active>summary{background:#e8f7ef;color:#18734a;border-color:#d5efe1}.eventgroup.upcoming>summary{background:#eaf3fc;color:#27649a;border-color:#d9e9f7}.eventgroup.ended>summary{background:#eef1f5;color:#5d6878;border-color:#e0e5eb}.compactcard{border-color:#e1e7ef;box-shadow:0 1px 3px #0f172a0a}.compacttitle h2{color:#173f36}.compactmeta{color:#69778a}.compactrewards .reward{background:#f0f4ff;color:#4058a6}.countdown.active{background:#e1f6e9;color:#177245}.countdown.upcoming{background:#e4f0fb;color:#28679c}.gpscount{color:#536174}.chevron{color:#718096}
-}
+  html,body{height:100%;overflow:hidden;background:#f4f7fb;color:#172033}
 
-/* Desktop sidebar visual reset */
-@media(min-width:801px){
-html,body{background:#f4f7fb!important}
-.appShell{background:#f4f7fb!important}
-.desktopSide{
-  background:#f8fafc!important;color:#1e293b!important;
-  border-right:1px solid #dbe3ec!important;box-shadow:2px 0 10px rgba(15,23,42,.04)!important;
-  padding:26px 22px!important
-}
-.sidebrand{padding:0 2px 18px!important;margin:0 0 18px!important;border-bottom:1px solid #e2e8f0!important}
-.sidebrand h1{color:#183153!important;font-size:23px!important;font-weight:750!important;margin:0!important}
-.sidebrand p{color:#64748b!important;margin:6px 0 0!important}
-.desktopSide .toolbar{
-  background:transparent!important;border:0!important;border-radius:0!important;
-  box-shadow:none!important;padding:0!important;margin:0!important
-}
-.desktopSide .toolbar>*{background:transparent}
-.desktopSide .filters{background:transparent!important;margin-top:10px!important;gap:10px!important}
-.desktopSide input[type="search"],.desktopSide select,.desktopSide .rewardfilter>summary{
-  width:100%;min-height:46px;background:#fff!important;color:#253247!important;
-  border:1px solid #d8e0ea!important;border-radius:10px!important;
-  box-shadow:0 1px 2px rgba(15,23,42,.035)!important
-}
-.desktopSide input[type="search"]{padding:0 13px!important}
-.desktopSide .rewardfilter{background:transparent!important}
-.desktopSide .rewardfilter>summary{display:flex!important;align-items:center!important;padding:0 13px!important}
-.desktopSide .rewardmenu{border-color:#d8e0ea!important;box-shadow:0 8px 22px rgba(15,23,42,.10)!important}
-.desktopSide .toggle{
-  background:transparent!important;color:#526176!important;
-  min-height:38px;display:flex;align-items:center;gap:8px;padding:2px 4px!important
-}
-.desktopSide .calendarbox{
-  background:transparent!important;border:0!important;border-top:1px solid #e2e8f0!important;
-  padding:15px 0 0!important;margin:12px 0 0!important
-}
-.desktopSide .calendarbtn{
-  width:100%;justify-content:flex-start;background:#fff!important;color:#334155!important;
-  border:1px solid #d8e0ea!important;border-radius:10px!important;box-shadow:0 1px 2px rgba(15,23,42,.035)!important
-}
-.desktopSide .calendarhelp{background:#fff!important;border-color:#d8e0ea!important}
-.mainPane{background:#f4f7fb!important}
-.mainPane>.wrap{padding-left:16px!important;padding-right:16px!important}
-.summary{color:#708095!important}
-.eventgroup.active>summary{background:#e9f6ef!important;color:#176b47!important}
-.eventgroup.upcoming>summary{background:#eaf2fb!important;color:#275f92!important}
-.eventgroup.ended>summary{background:#e9edf2!important;color:#536171!important}
-.compactcard{background:#fff!important;border-color:#dde5ee!important}
-.compacttitle h2{color:#174c40!important}
-.compactmeta{color:#6c7a8d!important}
-}
+  .appShell{
+    height:100vh;
+    display:grid;
+    grid-template-columns:286px minmax(0,1fr);
+    background:#f4f7fb
+  }
 
+  .desktopSide{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    overflow-y:auto;
+    background:#f8fafc;
+    color:#1e293b;
+    border-right:1px solid #dbe3ec;
+    box-shadow:2px 0 10px rgba(15,23,42,.04);
+    padding:26px 22px
+  }
 
-/* Desktop event-list scrolling fix */
-@media(min-width:801px){
-.mainPane>.wrap{overflow:hidden!important}
-.mainPane #events{min-height:0!important;overflow:hidden!important}
-.eventgroup[open]{min-height:0!important;overflow:hidden!important}
-.eventgroup[open]>.groupcards{
-  flex:1 1 0!important;
-  min-height:0!important;
-  overflow-y:auto!important;
-  overflow-x:hidden!important;
-  scrollbar-gutter:stable;
-}
+  .sidebrand{
+    flex:0 0 auto;
+    padding:0 2px 18px;
+    margin:0 0 18px;
+    border-bottom:1px solid #e2e8f0
+  }
+  .sidebrand h1{margin:0;color:#183153;font-size:23px;font-weight:750;letter-spacing:-.3px}
+  .sidebrand p{margin:6px 0 0;color:#64748b;font-size:13px}
+
+  .desktopSide .toolbar{
+    position:static;
+    flex:0 0 auto;
+    display:block;
+    margin:0;
+    padding:0;
+    background:transparent
+  }
+  .desktopSide .quick{display:none}
+  .desktopSide .filters{grid-template-columns:1fr;gap:10px;margin-top:10px}
+  .desktopSide input[type="search"],
+  .desktopSide select,
+  .desktopSide .rewardfilter>summary{
+    width:100%;
+    min-height:46px;
+    background:#fff;
+    color:#253247;
+    border:1px solid #d8e0ea;
+    border-radius:10px;
+    box-shadow:0 1px 2px rgba(15,23,42,.035)
+  }
+  .desktopSide input[type="search"]{padding:0 13px}
+  .desktopSide input[type="search"]:focus,
+  .desktopSide select:focus{outline:2px solid #bfdbfe;border-color:#93c5fd}
+  .desktopSide .rewardfilter{background:transparent}
+  .desktopSide .rewardfilter>summary{display:flex;align-items:center;padding:0 13px}
+  .desktopSide .rewardmenu{border-color:#d8e0ea;box-shadow:0 8px 22px rgba(15,23,42,.10)}
+  .desktopSide .toggle{
+    min-height:38px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:2px 4px;
+    color:#526176;
+    background:transparent
+  }
+  .desktopSide .calendarbox{
+    margin:12px 0 0;
+    padding:15px 0 0;
+    border:0;
+    border-top:1px solid #e2e8f0;
+    background:transparent
+  }
+  .desktopSide .calendarbtn{
+    width:100%;
+    justify-content:flex-start;
+    padding:8px 10px;
+    background:#fff;
+    color:#334155;
+    border-color:#d8e0ea;
+    border-radius:10px;
+    box-shadow:0 1px 2px rgba(15,23,42,.035)
+  }
+  .desktopSide .calendarhelp{background:#fff;border-color:#d8e0ea}
+
+  .mainPane{
+    min-width:0;
+    height:100vh;
+    overflow:hidden;
+    background:#f4f7fb
+  }
+  .mainPane>header{display:none}
+  .mainPane>.wrap{
+    width:100%;
+    height:100%;
+    min-height:0;
+    margin:0;
+    padding:0 16px 10px;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden
+  }
+
+  .mainPane .summary{
+    flex:0 0 auto;
+    margin:2px 0 8px;
+    color:#708095
+  }
+
+  .mainPane #events{
+    flex:1 1 auto;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden
+  }
+
+  .eventgroup{
+    flex:0 0 auto;
+    min-height:0;
+    margin:0 0 6px;
+    border-radius:14px;
+    overflow:hidden
+  }
+  .eventgroup>summary{flex:0 0 auto;border:1px solid transparent}
+  .eventgroup.active>summary{background:#e9f6ef;color:#176b47;border-color:#d5efe1}
+  .eventgroup.upcoming>summary{background:#eaf2fb;color:#275f92;border-color:#d9e9f7}
+  .eventgroup.ended>summary{background:#e9edf2;color:#536171;border-color:#e0e5eb}
+
+  .eventgroup[open]{
+    flex:1 1 auto;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden
+  }
+  .eventgroup[open]>.groupcards{
+    flex:1 1 auto;
+    min-height:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    scrollbar-gutter:stable;
+    padding:1px 3px 1px 0
+  }
+
+  .compactcard{
+    flex:0 0 auto;
+    background:#fff;
+    border-color:#dde5ee;
+    box-shadow:0 1px 3px rgba(15,23,42,.04)
+  }
+  .compactcard:first-child{margin-top:7px}
+  .compactcard:last-child{margin-bottom:7px}
+  .compacttitle h2{color:#174c40}
+  .compactmeta{color:#6c7a8d}
+  .compactrewards .reward{background:#f0f4ff;color:#4058a6}
+  .countdown.active{background:#e1f6e9;color:#177245}
+  .countdown.upcoming{background:#e4f0fb;color:#28679c}
+  .gpscount{color:#536174}
+  .chevron{color:#718096}
 }
