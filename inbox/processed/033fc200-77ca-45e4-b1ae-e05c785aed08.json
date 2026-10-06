@@ -1,0 +1,17 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "033fc200-77ca-45e4-b1ae-e05c785aed08",
+  "createdAt": "2026-10-06T14:47:45.836633Z",
+  "type": "link",
+  "text": "https://tomchun.tw/tomchun/2026/07/08/ana-pokemon-go-2026/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-06T14:49:17.101000+00:00",
+  "processedAt": "2026-10-06",
+  "resolution": {
+    "action": "created_event",
+    "eventId": "2026-ana-red-pokemon-jet"
+  }
+}
