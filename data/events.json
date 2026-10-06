@@ -989,23 +989,96 @@
       "timeNote": "10月4日～10月10日（年份已由使用者確認為 2026；來源未提供每日時間）",
       "timeStatus": "provided"
     },
-    "regions": [],
-    "locations": [],
-    "locationStatus": "not_provided",
+    "regions": [
+      "歐洲",
+      "英國",
+      "法國",
+      "德國",
+      "西班牙",
+      "荷蘭",
+      "比利時"
+    ],
+    "locations": [
+      {
+        "name": "Science Museum（科學博物館）",
+        "lat": 51.4973,
+        "lng": -0.17649,
+        "note": "倫敦，英國；來源圖片列為 ESA 參與博物館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Cité de l’espace（太空城）",
+        "lat": 43.58521,
+        "lng": 1.49183,
+        "note": "土魯斯，法國；來源圖片列為 ESA 參與博物館",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Deutsches Museum（德意志博物館）",
+        "lat": 49.45383,
+        "lng": 11.07458,
+        "note": "紐倫堡，德國；來源圖片列為 ESA 參與博物館",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Museu de les Ciències（科學博物館）",
+        "lat": 39.45576,
+        "lng": -0.3513,
+        "note": "瓦倫西亞，西班牙；來源圖片列為 ESA 參與博物館",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Space Expo",
+        "lat": 52.21532,
+        "lng": 4.42067,
+        "note": "諾德韋克，荷蘭；來源圖片列為 ESA 參與博物館",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Euro Space Center",
+        "lat": 50.00833,
+        "lng": 5.21939,
+        "note": "特蘭西訥，比利時；來源圖片列為 ESA 參與博物館",
+        "type": "additional",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
     "specialRewards": [
       {
         "category": "異色",
         "name": "異色 Blipbug",
         "shiny": true,
         "note": "使用者確認收錄於「太空週」；來源圖片為歐洲 ESA 參與博物館的訓練家回報。"
+      },
+      {
+        "category": "特殊造型",
+        "name": "太空人皮卡丘",
+        "shiny": true,
+        "note": "來源圖片標示「異色太空人皮卡丘」，並顯示限時調查可遇見太空人皮卡丘。"
+      },
+      {
+        "category": "特殊背景",
+        "name": "ESA 參與博物館地點背景",
+        "shiny": null,
+        "note": "來源圖片指出只有在六個指定地點才有機會取得地點背景；截圖未完整顯示適用寶可夢名稱。"
       }
     ],
     "details": [
-      "來源圖片回報：歐洲六座 ESA 參與博物館活動期間出現 Blipbug 異色版本。"
+      "來源圖片回報：歐洲六座 ESA 參與博物館活動期間出現 Blipbug 異色版本。",
+      "免費限時調查包含團體戰勝利任務；圖片列出贏得 1～5 次團體戰，獎勵包含 2,500 XP、2,500 星星沙子及太空人皮卡丘相遇。",
+      "博物館周邊田野調查任務包含：捕捉 10 隻寶可夢、與夥伴寶可夢獲得 3 顆心、轉動 10 個 PokéStop。",
+      "來源圖片指出只有六座指定 ESA 參與博物館地點才有機會取得地點背景。"
     ],
     "notes": [
-      "來源圖片僅提供活動名稱與月日範圍，年份已由使用者確認為 2026；來源未提供地區、GPS或特殊獲取物。",
-      "2026-10-05 使用者確認將 ESA／Blipbug 圖片資訊收錄於「太空週」。"
+      "2026-10-05 使用者確認將 ESA／Blipbug 圖片資訊收錄於「太空週」。",
+      "2026-10-06 Inbox 圖片補充太空人皮卡丘、限時調查、田野調查、六座 ESA 參與博物館與 GPS。",
+      "地點背景的適用寶可夢名稱在來源截圖中未完整顯示，因此未自行推定。"
     ],
     "sources": [
       {
@@ -1014,15 +1087,14 @@
       }
     ],
     "dataQuality": {
-      "gpsStatus": "not_provided",
+      "gpsStatus": "complete",
       "unresolved": [
         "每日活動時間未提供",
-        "活動地區／實體地點未提供",
-        "GPS 座標未提供"
+        "地點背景適用的寶可夢名稱在來源截圖中未完整顯示"
       ]
     },
     "createdAt": "2026-10-01",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "schemaVersion": 2,
