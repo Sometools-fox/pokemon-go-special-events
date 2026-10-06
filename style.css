@@ -173,3 +173,6 @@
   .gpscount{color:#536174}
   .chevron{color:#718096}
 }
+
+/* Detail pages must use normal document scrolling on desktop. */
+@media(min-width:801px){body:has(#eventDetail){height:auto;min-height:100%;overflow-y:auto;overflow-x:hidden}body:has(#eventDetail) main.wrap{padding-bottom:24px}}
