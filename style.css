@@ -72,3 +72,19 @@ html,body{background:#f4f7fb!important}
 .compacttitle h2{color:#174c40!important}
 .compactmeta{color:#6c7a8d!important}
 }
+
+
+/* Desktop event-list scrolling fix */
+@media(min-width:801px){
+.mainPane>.wrap{overflow:hidden!important}
+.mainPane #events{overflow:hidden!important}
+.eventgroup[open]{overflow:hidden!important}
+.eventgroup[open]>.groupcards{
+  flex:1 1 auto!important;
+  height:0!important;
+  min-height:0!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  scrollbar-gutter:stable;
+}
+}
