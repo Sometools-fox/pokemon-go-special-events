@@ -7,7 +7,7 @@ X-WR-CALNAME:Pokémon GO 特殊活動
 X-WR-CALDESC:Pokémon GO 特殊活動資料庫
 BEGIN:VEVENT
 UID:2026-klcc-pokexciting@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260914
 SUMMARY:PokéXciting! Kuala Lumpur
@@ -22,7 +22,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-ana-green-pokemon-jet-phase2@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20270901
 SUMMARY:ANA × Pokémon GO「Green Pokémon Jet」第二階段
@@ -35,7 +35,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-korea-pikachu-autumn-picnic@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20261012
 SUMMARY:皮卡丘的秋日野餐
@@ -48,7 +48,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-korea-pikachu-partners@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260927
 SUMMARY:皮卡丘的韓國夥伴們
@@ -61,7 +61,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-ph@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261005
 SUMMARY:Pokémon RUN 2026
@@ -74,7 +74,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-tw-taichung@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
 SUMMARY:Pokémon RUN 2026
@@ -87,7 +87,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-tw-kaohsiung@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:Pokémon RUN 2026
@@ -100,7 +100,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-sg@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:Pokémon RUN 2026
@@ -113,7 +113,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-tw-newtaipei@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:Pokémon RUN 2026
@@ -126,7 +126,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-id-jakarta@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pokémon RUN 2026
@@ -139,7 +139,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-th@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
 SUMMARY:Pokémon RUN 2026
@@ -152,7 +152,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-run-2026-hk@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270125
 SUMMARY:Pokémon RUN 2026
@@ -165,7 +165,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-harvest-festival-applin-picking@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261006
 SUMMARY:Harvest Festival 2026: Applin Picking
@@ -177,7 +177,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-kanto-pokepark-articuno-background-raids@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 SUMMARY:KANTO PokéPark 背景急凍鳥團體戰
@@ -191,7 +191,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:unknown-year-harvest-festival-team-go-rocket-takeover-oct-02-05@pokem
  on-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261006
 SUMMARY:豐收節：火箭隊佔領
@@ -204,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:unknown-year-gigantamax-cinderace-max-battle-day-oct-03@pokemon-go-sp
  ecial-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:超極巨閃焰王牌極巨對戰日
@@ -216,19 +216,21 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:unknown-year-space-week-oct-04-10@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20270501
 SUMMARY:太空週
-DESCRIPTION:特殊獲取物：異色 Blipbug\n詳細資料：https://some
- tools-fox.github.io/pokemon-go-special-events/event.html?id=unknown-year
- -space-week-oct-04-10
+LOCATION:Science Museum（科學博物館）
+DESCRIPTION:特殊獲取物：異色 Blipbug、太空飛行員皮卡丘
+ 、特殊背景卡太空飛行員皮卡丘\n詳細資料：https://somet
+ ools-fox.github.io/pokemon-go-special-events/event.html?id=unknown-year-
+ space-week-oct-04-10
 URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
  id=unknown-year-space-week-oct-04-10
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-korea-hangul-day-event@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261010
 SUMMARY:2026 韓國韓文日（한글날）活動
@@ -240,7 +242,7 @@ URL:https://sometools-fox.github.io/pokemon-go-special-events/event.html?
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-us-pokemon-tcg-30th-collaboration@pokemon-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20261101
 SUMMARY:Pokémon GO × Pokémon TCG 30週年美國限定合作活動
@@ -253,7 +255,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-pokemon-30th-mall-exploration-malaysia-ombak-klcc@pokemon-go-spe
  cial-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20260110
 DTEND;VALUE=DATE:20270101
 SUMMARY:Pokémon 30週年商場探索活動
@@ -267,7 +269,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-pokemon-30th-mall-exploration-philippines-sm-mall-of-asia@pokemo
  n-go-special-events
-DTSTAMP:20261005T075657Z
+DTSTAMP:20261006T082139Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 SUMMARY:Pokémon 30週年商場探索活動
