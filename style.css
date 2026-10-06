@@ -176,3 +176,6 @@
 
 /* Detail pages must use normal document scrolling on desktop. */
 @media(min-width:801px){body:has(#eventDetail){height:auto;min-height:100%;overflow-y:auto;overflow-x:hidden}body:has(#eventDetail) main.wrap{padding-bottom:24px}}
+
+/* Detail page is a normal scrolling document; keep list-page viewport rules isolated. */
+@media(min-width:801px){html:has(body.detailPage){height:auto;min-height:100%;overflow-y:auto;overflow-x:hidden}body.detailPage{height:auto;min-height:100vh;overflow-y:auto;overflow-x:hidden}body.detailPage main.wrap{height:auto;min-height:0;overflow:visible;padding-bottom:32px}}
