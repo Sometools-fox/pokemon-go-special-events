@@ -1,0 +1,20 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "b93f65d5-cee6-4876-9883-fb8a8f600384",
+  "createdAt": "2026-10-05T07:21:42.876594Z",
+  "type": "link",
+  "text": "https://pokemonhubs.com/pokemongo/53836/",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-05T07:21:52.465000+00:00",
+  "resolution": {
+    "action": "updated_existing",
+    "eventId": "unknown-year-space-week-oct-04-10",
+    "method": "original_url_full_text_obtained",
+    "originalUrl": "https://pokemonhubs.com/pokemongo/53836/",
+    "note": "原始 URL 重新直接取得完整正文後，確認為 Pokémon GO × ESA 活動；已更正先前 needs-review 誤判並更新既有太空週資料。",
+    "processedAt": "2026-10-06"
+  }
+}
