@@ -1,0 +1,21 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "e90b9ee6-b90b-400c-a8e5-6ca705beec5a",
+  "createdAt": "2026-10-08T12:36:54.346803Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/e90b9ee6-b90b-400c-a8e5-6ca705beec5a/2fe70461-5dc1-48d3-ac7d-f173384e6505.jpg"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-10-14T02:43:17.046000+00:00",
+  "processedAt": "2026-10-14",
+  "resolution": {
+    "action": "created_event",
+    "eventId": "2026-fc-seoul-location-background"
+  }
+}
