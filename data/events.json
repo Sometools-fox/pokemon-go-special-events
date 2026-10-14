@@ -1910,5 +1910,70 @@
     },
     "createdAt": "2026-10-14",
     "updatedAt": "2026-10-14"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokemon-go-lab-tokyo-professor-pikachu",
+    "name": "Pokémon GO Lab. 東京・維羅博士助手皮卡丘",
+    "schedule": {
+      "startDate": "2026-10-07",
+      "endDate": "2040-12-31",
+      "timeNote": "外部資料指出自2026/10/7起至2040/12/31；此前10/4–10/7另有一輪限時調查，兩者日期來源不同。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "日本",
+      "東京都",
+      "池袋"
+    ],
+    "locations": [
+      {
+        "name": "Pokémon GO Lab.（Pokémon Center Mega Tokyo／Sunshine City）",
+        "lat": 35.72898,
+        "lng": 139.71908,
+        "note": "使用者提供圖片中的 GPS；現場限定活動。",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "維羅博士助手皮卡丘",
+        "shiny": true,
+        "note": "外部資料指出一星團體戰可遇見異色。"
+      },
+      {
+        "category": "特殊背景",
+        "name": "Pokémon GO Lab. 地點背景維羅博士助手皮卡丘",
+        "shiny": true,
+        "note": "來源指出活動限定地點背景；異色資格由外部資料佐證。"
+      }
+    ],
+    "details": [
+      "Pokémon GO Lab. 現場有特殊一星團體戰，可遇見維羅博士助手皮卡丘。",
+      "活動另有 Pokémon GO Lab. 限時調查，包含旋轉現場寶可補給站、與夥伴拍照、捕捉寶可夢及送禮等課題。",
+      "相關活動資料另列現場特殊背景皮卡丘與維羅博士助手皮卡丘。"
+    ],
+    "notes": [
+      "使用者提供原始 Tomchun 網址無法直接取得完整正文；內容依 Serebii、GameWith 等外部資料核對。",
+      "2040/12/31 為外部網站列出的截止日期，可能屬長期預設期限；未視為已獲官方獨立確認。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/10/07/pokemon-go-lab-tokyo-japan-task/"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "2040年結束日期尚未由官方獨立確認",
+        "原始 Tomchun URL 正文未完整取得"
+      ]
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
   }
 ]
