@@ -1515,7 +1515,10 @@
       "活動包含 Event-Themed Pokémon 遭遇。",
       "Trick or Treat Halloween Boxes 可能包含活動主題寶可夢遭遇。",
       "GO Pass: Halloween 2026 免費路線包含捕捉糖果×2、捕捉星星沙子×2；Deluxe 路線為×3。",
-      "活動期間加入 Halloween 場景裝飾與 Lavender Town 音樂。"
+      "活動期間加入 Halloween 場景裝飾與 Lavender Town 音樂。",
+      "野外可遇見夜巡靈、戴禮帽的超音蝠、萬聖節裝扮的波加曼與隨風球。",
+      "一星團體戰可遇見戴帽披風皮卡丘、戴蝴蝶結來悲茶。",
+      "圖片列出 GO Pass 免費與豪華版的活動獎勵及商店萬聖節服裝。"
     ],
     "notes": [
       "僅依 Inbox 圖片整理；圖片未提供地區、GPS 或明確時區。"
@@ -1535,7 +1538,7 @@
       ]
     },
     "createdAt": "2026-10-06",
-    "updatedAt": "2026-10-06"
+    "updatedAt": "2026-10-14"
   },
   {
     "schemaVersion": 2,
@@ -1593,5 +1596,274 @@
     },
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-arizona-cardinals-pokemon-go",
+    "name": "Arizona Cardinals × Pokémon GO",
+    "schedule": {
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-12",
+      "timeNote": "來源圖片標示台灣時間 04:25；未明確標示結束時間。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "美國",
+      "亞利桑那州"
+    ],
+    "locations": [
+      {
+        "name": "State Farm Stadium",
+        "lat": 33.52766,
+        "lng": -112.26255,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "State Farm Stadium 地點背景皮卡丘",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "換裝道具",
+        "name": "美式足球頭盔",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "團體戰可遇見帶有 State Farm Stadium 地點背景的皮卡丘。",
+      "限時調查可獲得美式足球頭盔虛擬形象道具。"
+    ],
+    "notes": [
+      "日期與時間取自使用者提供的圖片。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-fc-seoul-location-background",
+    "name": "2026 FC Seoul Pokémon GO Event",
+    "schedule": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "timeNote": "當地時間 09:00–20:00",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "南韓",
+      "首爾"
+    ],
+    "locations": [
+      {
+        "name": "Seoul World Cup Stadium",
+        "lat": 37.568222,
+        "lng": 126.897361,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "FC Seoul 地點背景小火龍",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊背景",
+        "name": "FC Seoul 地點背景噴火龍",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "一星團體戰：小火龍（地點背景）。",
+      "免費限時調查：噴火龍（地點背景）。",
+      "活動野外出現卡蒂狗、火伊布、火稚雞、戴魯比、小獅獅、火斑喵。",
+      "活動獎勵包括誘餌模組延長至兩小時、捕捉糖果加成、地圖彩紙與提高遇見異色寶可夢的機率。"
+    ],
+    "notes": [
+      "來源為活動宣傳圖片，未逐一確認特定寶可夢的異色資格。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokexciting-taipei",
+    "name": "PokéXciting! in 台北",
+    "schedule": {
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "timeNote": "圖片僅標示活動日期，未提供每日開始及結束時間。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "台灣",
+      "台北市",
+      "信義區"
+    ],
+    "locations": [
+      {
+        "name": "新光三越台北信義新天地",
+        "lat": 25.0384,
+        "lng": 121.5672,
+        "note": "來源圖片 GPS 第1點",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "新光三越台北信義新天地",
+        "lat": 25.0354,
+        "lng": 121.567,
+        "note": "來源圖片 GPS 第2點",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "松壽廣場公園",
+        "lat": 25.0366,
+        "lng": 121.5651,
+        "note": "來源圖片 GPS 第3點",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "信義廣場",
+        "lat": 25.0331,
+        "lng": 121.5645,
+        "note": "來源圖片 GPS 第4點",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "信義安康公園",
+        "lat": 25.0358,
+        "lng": 121.5715,
+        "note": "來源圖片 GPS 第5點",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "PokéXciting! 台北蓋印皮卡丘",
+        "shiny": null,
+        "note": "來源說明蓋印皮卡丘有台北背卡。"
+      },
+      {
+        "category": "特殊寶可夢",
+        "name": "未知圖騰 T",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊寶可夢",
+        "name": "未知圖騰 W",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "活動地點可進行超極巨化妙蛙花、噴火龍、水箭龜對戰。",
+      "野外出現粉紅色爆頭炸皮卡丘（無背卡）及多種活動寶可夢。",
+      "來源圖片提供五個集章 GPS 點。"
+    ],
+    "notes": [
+      "集章皮卡丘背卡與一般野外皮卡丘不同。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-fall-marathon-buddy-trek",
+    "name": "秋季遠足：與夥伴同行",
+    "schedule": {
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-19",
+      "timeNote": "台灣時間 10月13日 10:00～10月19日 20:00",
+      "timeStatus": "provided"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "馬拉松遮陽帽皮卡丘",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "首次登場",
+        "name": "納噬草",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "免費限時調查可遇見馬拉松遮陽帽皮卡丘，需在10月19日20:00前完成及領取。",
+      "納噬草首次登場，可透過 GO Pass 課題、薰香與田野調查遇見。",
+      "異色落雷獸出現機率提高；10月16日至19日期間，薰香遇見異色洗翠卡蒂狗的機率提高。",
+      "GO Pass 與豪華版活動期間登場。",
+      "超級雷電獸可提升至超級頂尖級並學習放電＋。"
+    ],
+    "notes": [
+      "原始網址直接擷取失敗；由原網址的搜尋索引內容補充，未推測地點與 GPS。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": "https://tomchun.tw/tomchun/2026/09/23/fall-marathon-buddy-trek/?fbclid=Iwb21leAU6sz9jbGNrBTqzAWV4dG4DYWVtAjExAHBkb2YFc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefJVBvnn867dK1Yi0tTShddrxYdxzjaj-4t4OBPzEOaxWA4ORxDRV8RkQ0T4_aem_hUWrzUTKdFjggVQjxID_cQ"
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": []
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
   }
 ]
