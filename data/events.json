@@ -1865,5 +1865,50 @@
     },
     "createdAt": "2026-10-14",
     "updatedAt": "2026-10-14"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-2027-minior-meteor-showers",
+    "name": "小隕星雨（流星雨系列活動）",
+    "schedule": {
+      "startDate": "2026-10-19",
+      "endDate": "2027-08-15",
+      "timeNote": "圖片列出分段：獵戶座 2026/10/19–24、獅子座 2026/11/14–19、雙子座 2026/12/11–16、水瓶座 2027/5/3–8、水瓶座δ南 2027/7/28–8/2、英仙座 2027/8/10–15；每日 17:00–21:00 小隕星雨時段。",
+      "timeStatus": "provided"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "首次登場",
+        "name": "小隕星（7 種核心顏色）",
+        "shiny": null,
+        "note": "紅、橙、黃、綠、淺藍、藍、紫；來源未確認異色。"
+      }
+    ],
+    "details": [
+      "來源列出六段流星雨活動期間。",
+      "小隕星有七種不同顏色的核心，圖片描述其在 HP 降低時改變樣子。",
+      "流星雨期間每日 17:00–21:00 遊戲天空出現流星，地圖遇見小隕星的機率提高。"
+    ],
+    "notes": [
+      "跨年日期依來源月份排列推定 2027 年；需要使用者確認推定年份。",
+      "圖片中小隕星登場機制與對戰描述照來源保留，不做額外驗證。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "2027年月份為依跨年順序推定，待確認"
+      ]
+    },
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
   }
 ]
