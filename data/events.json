@@ -2173,5 +2173,63 @@
     },
     "createdAt": "2026-10-20",
     "updatedAt": "2026-10-20"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-11-10-02-arena-toxtricity",
+    "name": "The O2 Arena 限定調查：顫弦蠑螈",
+    "schedule": {
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "timeNote": "當地時間下午開始，未提供明確結束時間。",
+      "timeStatus": "partial"
+    },
+    "regions": [
+      "英國",
+      "倫敦"
+    ],
+    "locations": [
+      {
+        "name": "The O2 Arena",
+        "lat": 51.502949,
+        "lng": 0.002369,
+        "note": "來源圖片所列 GPS",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "The O2 Arena 專屬地點背景顫弦蠑螈",
+        "shiny": null,
+        "note": "圖片指出有專屬地點背景，未確認異色資格。"
+      }
+    ],
+    "details": [
+      "限時分支調查可選擇高調形態或低調形態的顫弦蠑螈遭遇。",
+      "圖片援引 PokéMiners，屬未經官方完整確認的活動資訊。",
+      "暗影超夢登場僅為圖片中的可能性推測，未列入已確認獎勵。"
+    ],
+    "notes": [
+      "圖片未提供活動年份；依本次處理日期 2026/10/20 推定為 2026/11/10，待確認。",
+      "活動內容可能變動；來源圖片明確表示仍有待正式公告。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "年份 2026 為推定",
+        "活動資訊尚未獲官方確認"
+      ]
+    },
+    "createdAt": "2026-10-20",
+    "updatedAt": "2026-10-20"
   }
 ]
