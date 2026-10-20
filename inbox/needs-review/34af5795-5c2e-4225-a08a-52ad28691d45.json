@@ -1,0 +1,30 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "34af5795-5c2e-4225-a08a-52ad28691d45",
+  "createdAt": "2026-10-20T00:19:14.167647Z",
+  "type": "link",
+  "text": "https://m.gamer.com.tw/forum/C.php?bsn=29659&snA=49297&fbclid=IwVERDUAVDksxleHRuA2FlbQIxMABwZG9mBXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHn2rds2DcBe_zONyvXucJkRz7oojCIt7GcOs7LyrC4J0a0Ei8aiOfrncAWBl_aem_6xln_Y5ii4gATRlYKtJCOw",
+  "attachmentCount": 0,
+  "attachments": [],
+  "sourceStatus": "pending",
+  "importStatus": "needs-review",
+  "uploadedAt": "2026-10-20T00:23:34.424000+00:00",
+  "review": {
+    "reasonCode": "source-unavailable",
+    "urlRetrieval": {
+      "url": "https://m.gamer.com.tw/forum/C.php?bsn=29659&snA=49297&fbclid=IwVERDUAVDksxleHRuA2FlbQIxMABwZG9mBXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHn2rds2DcBe_zONyvXucJkRz7oojCIt7GcOs7LyrC4J0a0Ei8aiOfrncAWBl_aem_6xln_Y5ii4gATRlYKtJCOw",
+      "directFetchAttempted": true,
+      "directRetryAttempted": true,
+      "searchAttempted": true,
+      "externalVerificationAttempted": true,
+      "results": [
+        "原始行動版網址無法擷取",
+        "桌面版同文章無法擷取",
+        "搜尋文章編號 snA=49297 未取得對應內容",
+        "外部搜尋未能辨認該篇文章主題"
+      ],
+      "finalJudgment": "無法確認文章內容，不能判斷活動是否應入庫。"
+    },
+    "reason": "巴哈姆特文章無法讀取，文章編號搜尋亦未找到對應內容。"
+  }
+}
