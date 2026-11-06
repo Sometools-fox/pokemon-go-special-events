@@ -2231,5 +2231,498 @@
     },
     "createdAt": "2026-10-20",
     "updatedAt": "2026-10-20"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokemon-night-out-los-angeles",
+    "name": "Pokémon Night Out：洛杉磯 Intuit Dome",
+    "schedule": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "timeNote": "演唱會開始 19:30 PDT；遊戲內活動時間尚未確認，圖片推測可能持續約 3 小時。",
+      "timeStatus": "partial"
+    },
+    "regions": [
+      "美國",
+      "加州",
+      "洛杉磯"
+    ],
+    "locations": [
+      {
+        "name": "Intuit Dome",
+        "lat": 33.94446,
+        "lng": -118.34337,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "Intuit Dome 地點背景皮卡丘",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊背景",
+        "name": "Intuit Dome 地點背景耿鬼",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "圖片稱於 Intuit Dome 進行團體戰並捕捉寶可夢可取得地點背景。",
+      "來源稱活動免費參與；實際活動時段尚未確認。"
+    ],
+    "notes": [
+      "此為社群貼文資訊，尚未取得官方獨立確認。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokemon-night-out-london",
+    "name": "Pokémon Night Out：倫敦 The O2 Arena",
+    "schedule": {
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "timeNote": "圖片標示 11:30 PDT，非倫敦當地時間；遊戲內活動時間尚未確認。",
+      "timeStatus": "partial"
+    },
+    "regions": [
+      "英國",
+      "倫敦"
+    ],
+    "locations": [
+      {
+        "name": "The O2 Arena",
+        "lat": 51.50299,
+        "lng": 0.00307,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊背景",
+        "name": "The O2 Arena 地點背景皮卡丘",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊背景",
+        "name": "The O2 Arena 地點背景耿鬼",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "圖片稱於 The O2 Arena 進行團體戰並捕捉寶可夢可取得地點背景。",
+      "來源稱活動免費參與；實際活動時段尚未確認。"
+    ],
+    "notes": [
+      "來源時間標示為 PDT，不應直接當成倫敦當地時間。",
+      "此活動與既有 2026-11-10 The O2 Arena 顫弦蠑螈消息不同，來源未證實兩者關係。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-wild-area-sendai-station",
+    "name": "2026 曠野地帶：日本仙台車站周邊",
+    "schedule": {
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "timeNote": "日本時間 05:00–20:00；台灣時間 04:00–19:00（依圖片）。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "日本",
+      "宮城縣",
+      "仙台"
+    ],
+    "locations": [
+      {
+        "name": "仙台車站周邊 GPS 1",
+        "lat": 38.2624,
+        "lng": 140.8811,
+        "note": "圖片標示 4館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 2",
+        "lat": 38.2612,
+        "lng": 140.8791,
+        "note": "圖片標示 3館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 3",
+        "lat": 38.2602,
+        "lng": 140.8781,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 4",
+        "lat": 38.2626,
+        "lng": 140.8777,
+        "note": "圖片標示 3館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 5",
+        "lat": 38.2616,
+        "lng": 140.8768,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 6",
+        "lat": 38.2612,
+        "lng": 140.8741,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 7",
+        "lat": 38.2616,
+        "lng": 140.8841,
+        "note": "圖片標示 4館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 8",
+        "lat": 38.2592,
+        "lng": 140.8815,
+        "note": "圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 9",
+        "lat": 38.2595,
+        "lng": 140.8798,
+        "note": "圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 10",
+        "lat": 38.2597,
+        "lng": 140.8734,
+        "note": "圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 11",
+        "lat": 38.2622,
+        "lng": 140.8699,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 12",
+        "lat": 38.2636,
+        "lng": 140.8709,
+        "note": "圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 13",
+        "lat": 38.2646,
+        "lng": 140.8723,
+        "note": "圖片提供座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 14",
+        "lat": 38.2647,
+        "lng": 140.87,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 15",
+        "lat": 38.2651,
+        "lng": 140.8695,
+        "note": "圖片標示 3館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "仙台車站周邊 GPS 16",
+        "lat": 38.2669,
+        "lng": 140.8717,
+        "note": "圖片標示 2館",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊寶可夢",
+        "name": "蒼響・劍之王",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊寶可夢",
+        "name": "藏瑪然特・盾之王",
+        "shiny": null,
+        "note": ""
+      },
+      {
+        "category": "特殊寶可夢",
+        "name": "怪力（圖片提及特殊服裝 modern jacket）",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "來源列出仙台車站周邊 16 個團戰道館或活動點座標。",
+      "圖片未明確區分 16 個座標的道館正式名稱。"
+    ],
+    "notes": [
+      "日期、時段與獎勵取自社群截圖，未獨立驗證。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-mexico-city-halloween-stamp-rally",
+    "name": "墨西哥城萬聖節 GO 集章活動",
+    "schedule": {
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-05",
+      "timeNote": "未提供每日時間。",
+      "timeStatus": "not_provided"
+    },
+    "regions": [
+      "墨西哥",
+      "墨西哥城"
+    ],
+    "locations": [
+      {
+        "name": "Mexicráneo",
+        "lat": 19.4279,
+        "lng": -99.1662,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Bolsa Mexicana de Valores",
+        "lat": 19.42941,
+        "lng": -99.16447,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Reforma 222",
+        "lat": 19.4291,
+        "lng": -99.16164,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Vasija en Calle Genova",
+        "lat": 19.428,
+        "lng": -99.16446,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Paseo de las Heroínas",
+        "lat": 19.4253,
+        "lng": -99.1702,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "Mexicráneo 2",
+        "lat": 19.4277,
+        "lng": -99.1676,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "集章活動",
+        "name": "GO Stamp Rally 集章與活動主題寶可夢遭遇",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "活動英文名稱：Follow the Trail! Reconnect with Mexico City。",
+      "尋找標示 GO Stamp Rally 圖示的寶可補給站並收集印章。",
+      "來源提供六個集章 GPS 地點。"
+    ],
+    "notes": [
+      "圖片未明確列出集章完成獎勵的寶可夢種類。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": []
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-mexico-city-flower-cubone",
+    "name": "墨西哥城花飾卡拉卡拉",
+    "schedule": {
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-12",
+      "timeNote": "圖片未提供日期，依處理日 2026-11-06 起暫估 7 日（至 11-12），需要使用者確認。",
+      "timeStatus": "estimated"
+    },
+    "regions": [
+      "墨西哥",
+      "墨西哥城"
+    ],
+    "locations": [
+      {
+        "name": "花飾卡拉卡拉出現點",
+        "lat": 19.43756,
+        "lng": -99.16305,
+        "note": "",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "花飾卡拉卡拉（頭戴花朵）",
+        "shiny": null,
+        "note": ""
+      }
+    ],
+    "details": [
+      "來源圖片指出僅在薰香、小隊任務或限時調查出現。",
+      "截圖顯示花飾卡拉卡拉，沒有明確活動日期。"
+    ],
+    "notes": [
+      "活動日期並非來源提供；需要使用者確認。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "活動日期未提供，暫估 7 日，待使用者確認"
+      ]
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-clone-special-raid-day-rumor",
+    "name": "Clone Special Raid Day（複製寶可夢特殊團體戰日，未確認）",
+    "schedule": {
+      "startDate": "2026-12-19",
+      "endDate": "2026-12-19",
+      "timeNote": "來源未提供活動時段。",
+      "timeStatus": "not_provided"
+    },
+    "regions": [
+      "全球"
+    ],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [],
+    "details": [
+      "兩張社群圖片稱活動可能名為 Clone Special Raid Day，日期為 2026/12/19。",
+      "複製版妙蛙花、噴火龍、水箭龜及複製皮卡丘回歸均屬貼文推測，不列入已確認獎勵。"
+    ],
+    "notes": [
+      "未經官方確認；屬傳聞，不能視為已正式公布。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "活動名稱、日期及內容均未經官方確認"
+      ]
+    },
+    "createdAt": "2026-11-06",
+    "updatedAt": "2026-11-06"
   }
 ]
