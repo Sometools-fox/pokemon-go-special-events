@@ -1,0 +1,24 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "33ee046f-d48d-4b37-8639-50a23666e5ca",
+  "createdAt": "2026-10-20T23:00:50.638828Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/33ee046f-d48d-4b37-8639-50a23666e5ca/0f1d1cca-0ea3-45d7-937a-3b46cd862d98.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "processed",
+  "uploadedAt": "2026-11-06T05:53:12.635000+00:00",
+  "processedAt": "2026-11-06",
+  "resolution": {
+    "action": "created_event",
+    "eventIds": [
+      "2026-pokemon-night-out-los-angeles",
+      "2026-pokemon-night-out-london"
+    ]
+  }
+}
