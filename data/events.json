@@ -2724,5 +2724,121 @@
     },
     "createdAt": "2026-11-06",
     "updatedAt": "2026-11-06"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-pokexciting-singapore-changi",
+    "name": "PokéXciting! 新加坡樟宜機場",
+    "schedule": {
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "timeNote": "每日 10:00～22:00（新加坡當地時間）；兩張活動圖片均標示 11 月 7～8 日。",
+      "timeStatus": "provided"
+    },
+    "regions": [
+      "新加坡"
+    ],
+    "locations": [
+      {
+        "name": "新加坡樟宜機場（活動主座標）",
+        "lat": 1.35577,
+        "lng": 103.9869,
+        "note": "第一張來源圖片明確提供的活動座標",
+        "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "活動集章補給站 1",
+        "lat": 1.3559379,
+        "lng": 103.9872238,
+        "note": "第二張來源圖片提供的集章補給站座標，尚未確認站點名稱",
+        "type": "secondary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "活動集章補給站 2",
+        "lat": 1.3551798,
+        "lng": 103.9891596,
+        "note": "第二張來源圖片提供的集章補給站座標，尚未確認站點名稱",
+        "type": "secondary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "活動集章補給站 3",
+        "lat": 1.3614765,
+        "lng": 103.9904243,
+        "note": "第二張來源圖片提供的集章補給站座標，尚未確認站點名稱",
+        "type": "secondary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "活動集章補給站 4",
+        "lat": 1.3606,
+        "lng": 103.9889,
+        "note": "第二張來源圖片提供的集章補給站座標，尚未確認站點名稱",
+        "type": "secondary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "活動集章補給站 5",
+        "lat": 1.338006,
+        "lng": 103.9831774,
+        "note": "第二張來源圖片提供的集章補給站座標，尚未確認站點名稱",
+        "type": "secondary",
+        "coordinateStatus": "provided"
+      }
+    ],
+    "locationStatus": "provided",
+    "specialRewards": [
+      {
+        "category": "特殊造型",
+        "name": "新加坡藍色爆炸頭造型皮卡丘",
+        "shiny": null,
+        "note": "活動圖標示 Singapore color BLUE，野外持續出現至當地活動結束。"
+      },
+      {
+        "category": "特殊背景",
+        "name": "新加坡限定地點背卡（Singapore Location Background）",
+        "shiny": null,
+        "note": "活動圖列出地點背卡，未明確標示每種取得方式。"
+      },
+      {
+        "category": "未知圖騰",
+        "name": "未知圖騰（薰香）",
+        "shiny": null,
+        "note": "活動圖列出薰香出現未知圖騰；字母圖示較小，未將字母形式視為已確認。"
+      },
+      {
+        "category": "特殊收藏",
+        "name": "跨區域 GO 集章活動",
+        "shiny": null,
+        "note": "活動圖標示 Cross-Region GO Stamp Rally，至 2029 年 9 月可用。"
+      }
+    ],
+    "details": [
+      "活動圖標示兩份免費限時調查、活動田野調查、5 次 GO Snapshot 遭遇。",
+      "活動圖列出野外及誘餌模組限定寶可夢出現。",
+      "誘餌模組持續 1 小時；旋轉補給站可得 2 倍 XP、交換星塵減半、額外 2 次特殊交換、額外捕捉糖果。",
+      "來源圖列出活動補給站、野外寶可夢、薰香未知圖騰與極巨對戰圖示；細小圖示不推定所有寶可夢名稱。"
+    ],
+    "notes": [
+      "兩筆 Inbox 圖片合併為同一場新加坡 PokéXciting! 活動。",
+      "第二張圖片提供 5 個補給站 GPS，未提供對應補給站名稱。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "complete",
+      "unresolved": [
+        "五個集章補給站的正式名稱未提供",
+        "活動圖中部分細小寶可夢與未知圖騰字母圖示未達可確認程度，未列入具體形式"
+      ]
+    },
+    "createdAt": "2026-11-07",
+    "updatedAt": "2026-11-07"
   }
 ]
