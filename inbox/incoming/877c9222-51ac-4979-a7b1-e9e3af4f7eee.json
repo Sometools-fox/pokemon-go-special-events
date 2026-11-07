@@ -1,0 +1,19 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "877c9222-51ac-4979-a7b1-e9e3af4f7eee",
+  "createdAt": "2026-11-07T03:19:18.364911Z",
+  "type": "images",
+  "text": "",
+  "attachmentCount": 2,
+  "attachments": [
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/877c9222-51ac-4979-a7b1-e9e3af4f7eee/2827790f-7c48-4ad2-a451-c0bf46ee90e7.png"
+    },
+    {
+      "storagePath": "collector/LUtNtsuozLY2oPGNmSal60qDuos2/877c9222-51ac-4979-a7b1-e9e3af4f7eee/98810a3b-8d6a-491b-9e57-953462c90810.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "pending",
+  "uploadedAt": "2026-11-07T03:20:20.436000+00:00"
+}
