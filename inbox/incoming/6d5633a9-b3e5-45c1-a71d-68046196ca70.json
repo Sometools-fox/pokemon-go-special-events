@@ -1,0 +1,16 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "6d5633a9-b3e5-45c1-a71d-68046196ca70",
+  "createdAt": "2026-11-09T00:04:30.806730Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/RsOP7DvENcWYv65xQ0FUQQmR7FA2/6d5633a9-b3e5-45c1-a71d-68046196ca70/716130d6-395a-4908-b621-a1749b44fe6b.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "pending",
+  "uploadedAt": "2026-11-10T01:39:58.741000+00:00"
+}
