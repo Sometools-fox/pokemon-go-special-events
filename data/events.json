@@ -2299,8 +2299,8 @@
     "schedule": {
       "startDate": "2026-11-10",
       "endDate": "2026-11-10",
-      "timeNote": "圖片標示 11:30 PDT，非倫敦當地時間；遊戲內活動時間尚未確認。",
-      "timeStatus": "partial"
+      "timeNote": "原截圖標示 11:30 PDT。新截圖稱可能於 13:00 GMT 開放，遊戲內開始時間待確認。",
+      "timeStatus": "uncertain"
     },
     "regions": [
       "英國",
@@ -2313,6 +2313,14 @@
         "lng": 0.00307,
         "note": "",
         "type": "primary",
+        "coordinateStatus": "provided"
+      },
+      {
+        "name": "The O2 Arena 活動點（截圖座標）",
+        "lat": 51.5029,
+        "lng": 0.0034,
+        "note": "使用者確認追加為活動點。截圖未提供道館名稱。",
+        "type": "additional",
         "coordinateStatus": "provided"
       }
     ],
@@ -2333,11 +2341,13 @@
     ],
     "details": [
       "圖片稱於 The O2 Arena 進行團體戰並捕捉寶可夢可取得地點背景。",
-      "來源稱活動免費參與；實際活動時段尚未確認。"
+      "來源稱活動免費參與；實際活動時段尚未確認。",
+      "新截圖指活動團體戰限現場參與，無法使用遠距團體戰入場券。"
     ],
     "notes": [
       "來源時間標示為 PDT，不應直接當成倫敦當地時間。",
-      "此活動與既有 2026-11-10 The O2 Arena 顫弦蠑螈消息不同，來源未證實兩者關係。"
+      "此活動與既有 2026-11-10 The O2 Arena 顫弦蠑螈消息不同，來源未證實兩者關係。",
+      "新截圖提及顫弦蠑螈分支限時調查與地點背景的可能性，尚待確認。"
     ],
     "sources": [
       {
@@ -2347,10 +2357,13 @@
     ],
     "dataQuality": {
       "gpsStatus": "complete",
-      "unresolved": []
+      "unresolved": [
+        "遊戲內團體戰實際開始時間待確認。",
+        "顫弦蠑螈分支限時調查與地點背景待確認。"
+      ]
     },
     "createdAt": "2026-11-06",
-    "updatedAt": "2026-11-06"
+    "updatedAt": "2026-11-10"
   },
   {
     "schemaVersion": 2,
@@ -2840,5 +2853,78 @@
     },
     "createdAt": "2026-11-07",
     "updatedAt": "2026-11-07"
+  },
+  {
+    "schemaVersion": 2,
+    "id": "2026-wild-area-week-nov-09-13",
+    "name": "曠野週",
+    "schedule": {
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-13",
+      "timeNote": "截圖標示 11/9 05:00 至 11/13 20:00，時區未提供。年份依收錄日期暫列 2026。",
+      "timeStatus": "estimated"
+    },
+    "regions": [],
+    "locations": [],
+    "locationStatus": "not_provided",
+    "specialRewards": [
+      {
+        "category": "背卡",
+        "name": "蒼響・劍之王",
+        "shiny": null,
+        "note": "活動期間，玩家截圖提及背卡機會。"
+      },
+      {
+        "category": "背卡",
+        "name": "藏瑪然特・盾之王",
+        "shiny": null,
+        "note": "活動期間，玩家截圖提及背卡機會。"
+      },
+      {
+        "category": "背卡",
+        "name": "雷吉斯奇魯",
+        "shiny": null,
+        "note": "11/11 傳說極巨對戰，玩家截圖提及背卡機會。"
+      },
+      {
+        "category": "背卡",
+        "name": "雷吉鐸拉戈",
+        "shiny": null,
+        "note": "11/12 傳說極巨對戰，截圖稱首次登場，玩家截圖提及背卡機會。"
+      },
+      {
+        "category": "背卡",
+        "name": "拉帝亞斯",
+        "shiny": null,
+        "note": "11/13 傳說極巨對戰，玩家截圖提及背卡機會。"
+      },
+      {
+        "category": "背卡",
+        "name": "拉帝歐斯",
+        "shiny": null,
+        "note": "11/13 傳說極巨對戰，玩家截圖提及背卡機會。"
+      }
+    ],
+    "details": [
+      "玩家分享活動期間及逐日傳說極巨對戰的背卡資訊。"
+    ],
+    "notes": [
+      "來源為使用者提供的玩家分享截圖。適用地區、時區及座標未提供。"
+    ],
+    "sources": [
+      {
+        "type": "user_provided",
+        "url": null
+      }
+    ],
+    "dataQuality": {
+      "gpsStatus": "not_provided",
+      "unresolved": [
+        "適用地區與時區未提供。",
+        "來源未標示年份，依收錄日期暫列 2026 年。"
+      ]
+    },
+    "createdAt": "2026-11-10",
+    "updatedAt": "2026-11-10"
   }
 ]

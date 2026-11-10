@@ -11,7 +11,7 @@
     }
   ],
   "sourceStatus": "pending",
-  "importStatus": "needs-review",
+  "importStatus": "processed",
   "uploadedAt": "2026-11-10T01:39:58.694000+00:00",
   "review": {
     "reasonCode": "conflicting-location",
@@ -21,5 +21,11 @@
       "2026-11-10-02-arena-toxtricity"
     ],
     "suggestedAction": "更新倫敦 Night Out 的團體戰資訊，並確認新座標是取代場館主座標、追加為道館點，或只保留在來源備註。13:00 GMT 保留為可能時間，顫弦蠑螈保留為待確認。"
+  },
+  "resolution": {
+    "action": "user_confirmed_update",
+    "eventId": "2026-pokemon-night-out-london",
+    "resolvedAt": "2026-11-10",
+    "note": "保留主座標並追加截圖座標。"
   }
 }

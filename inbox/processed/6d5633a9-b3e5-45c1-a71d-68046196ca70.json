@@ -11,11 +11,17 @@
     }
   ],
   "sourceStatus": "pending",
-  "importStatus": "needs-review",
+  "importStatus": "processed",
   "uploadedAt": "2026-11-10T01:39:58.741000+00:00",
   "review": {
     "reasonCode": "insufficient-identity",
     "reason": "截圖為玩家分享，標題只寫「擴野週」，時段為 11/9 05:00 至 11/13 20:00，未標示時區或活動適用地區。圖片中個別道館名稱不足以辨識活動整體適用範圍。列有劍之王、盾之王背卡及 11/11 雷吉斯奇魯、11/12 雷吉鐸拉戈、11/13 拉帝亞斯與拉帝歐斯的背卡機會，未找到日期吻合的既有曠野活動。",
     "suggestedAction": "確認是否以獨立的「曠野週」玩家情報收錄，日期依 2026 年暫列，地區和時區標未提供。若屬於既有活動，請指定活動。"
+  },
+  "resolution": {
+    "action": "user_confirmed_new",
+    "eventId": "2026-wild-area-week-nov-09-13",
+    "resolvedAt": "2026-11-10",
+    "note": "獨立收錄，地區與時區未提供。"
   }
 }
