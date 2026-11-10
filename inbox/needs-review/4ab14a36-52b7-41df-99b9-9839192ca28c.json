@@ -1,0 +1,25 @@
+{
+  "protocolVersion": 2,
+  "clientItemId": "4ab14a36-52b7-41df-99b9-9839192ca28c",
+  "createdAt": "2026-11-10T00:29:19.287358Z",
+  "type": "image",
+  "text": "",
+  "attachmentCount": 1,
+  "attachments": [
+    {
+      "storagePath": "collector/RsOP7DvENcWYv65xQ0FUQQmR7FA2/4ab14a36-52b7-41df-99b9-9839192ca28c/ae5c2c9d-980c-4568-b637-41e8edbac69d.png"
+    }
+  ],
+  "sourceStatus": "pending",
+  "importStatus": "needs-review",
+  "uploadedAt": "2026-11-10T01:39:58.694000+00:00",
+  "review": {
+    "reasonCode": "conflicting-location",
+    "reason": "同日同場館的既有活動座標為 51.50299, 0.00307，新截圖則列 51.5029, 0.0034，未指明是否為另一個道館點。截圖稱可能於 13:00 GMT 開放，既有資料的 11:30 PDT 也不是已確認的遊戲內開始時間。截圖確認可辨識的內容包括當地限定團體戰、地點背景皮卡丘及耿鬼、無法使用遠距團體戰入場券。顫弦蠑螈分支限時調查與地點背景為貼文推測。",
+    "candidateEventIds": [
+      "2026-pokemon-night-out-london",
+      "2026-11-10-02-arena-toxtricity"
+    ],
+    "suggestedAction": "更新倫敦 Night Out 的團體戰資訊，並確認新座標是取代場館主座標、追加為道館點，或只保留在來源備註。13:00 GMT 保留為可能時間，顫弦蠑螈保留為待確認。"
+  }
+}
